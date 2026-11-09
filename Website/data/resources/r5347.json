@@ -1,0 +1,1 @@
+{"text":"import org.junit.runner.RunWith;\nimport org.junit.runners.Suite;\n\n@RunWith(Suite.class)\n\n@Suite.SuiteClasses({\n    UnitTest.class, UnitTest2.class, EmployeeTest.class\n})\n\npublic class JunitTestSuite {\n\n}\n","source":"Wipro-PJP-main/Topics/JUnit/Test-Suite/JunitTestSuite.java"}

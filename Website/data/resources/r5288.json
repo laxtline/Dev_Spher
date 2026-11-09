@@ -1,0 +1,1 @@
+{"text":"let num = Number(prompt(\"Enter a number to check Odd/Even: \"));\n\nalert(num % 2 === 0 ? \"Even\" : \"Odd\");\n","source":"Wipro-PJP-main/Topics/JavaScript-CSS/JavaScript-Objects/oddEven.js"}

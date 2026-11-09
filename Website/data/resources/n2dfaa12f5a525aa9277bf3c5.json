@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def hammingWeight(self, n: int) -> int:\n        ans = 0\n        while n:\n            n &= n - 1\n            ans += 1\n        return ans\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题15. 二进制中1的个数/Solution.py"}

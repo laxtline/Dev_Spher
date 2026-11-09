@@ -1,0 +1,1 @@
+{"text":"func uniquePaths(m int, n int) int {\n\tf := make([]int, n+1)\n\tfor i := range f {\n\t\tf[i] = 1\n\t}\n\tfor i := 1; i < m; i++ {\n\t\tfor j := 1; j < n; j++ {\n\t\t\tf[j] += f[j-1]\n\t\t}\n\t}\n\treturn f[n-1]\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 098. 路径的数目/Solution3.go"}

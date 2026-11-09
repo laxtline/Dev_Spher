@@ -1,0 +1,1 @@
+{"text":"select car_id, car_name, car_type\nfrom cars\nwhere car_id not in\n(select car_id from rentals)\norder by car_id;\n\n","source":"Cognizant-GenC-Learn-main/SQL/Cars not taken for rent/query.sql"}

@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def replaceSpaces(self, S: str, length: int) -> str:\n        return \"\".join([\"%20\" if c == \" \" else c for c in S[:length]])\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.03.String to URL/Solution2.py"}

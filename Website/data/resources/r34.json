@@ -1,0 +1,1 @@
+{"text":"// permutation\n\n#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin>>s;\n    \n    char ch;\n    cin>>ch\n    \n    int c=0;\n    \n    for(int i=0;i<s.length();i++)\n    {\n        if(s[i]==ch)c++;\n    }\n    cout<<c;\n    \n    return 0;\n    \n}\n","source":"Accenture-Coding-Round-main/10sept2024/Prob1.cpp"}

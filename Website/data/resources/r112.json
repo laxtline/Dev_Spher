@@ -1,0 +1,1 @@
+{"text":"// pattern\n\n#include <bits/stdc++.h>\nusing namespace std;\n\nvoid solve(int n)\n{\n    for(int i=1;i<=n;i++)\n    {\n        for(int j=1;j<=i;j++)\n        {\n            cout<<j<<\" \";\n        }cout<<endl;\n    }\n}\n\nint main() {\n    int n;\n    cin>>n;\n    \n    solve(n);\n\n    return 0;\n}\n","source":"Accenture-Coding-Round-main/30Aug2024/Prob3.cpp"}

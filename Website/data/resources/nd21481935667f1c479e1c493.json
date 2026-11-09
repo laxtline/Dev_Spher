@@ -1,0 +1,1 @@
+{"text":"func reverseLeftWords(s string, n int) string {\n\treturn s[n:] + s[:n]\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题58 - II. 左旋转字符串/Solution.go"}

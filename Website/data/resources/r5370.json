@@ -1,0 +1,1 @@
+{"text":"public class String5{\n    public static void main(String[] args) {\n        System.out.println(args[0].substring(1, args[0].length() - 1));\n    }\n}\n","source":"Wipro-PJP-main/Topics/OOPS/Strings/String5.java"}

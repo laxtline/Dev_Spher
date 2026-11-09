@@ -1,0 +1,1 @@
+{"text":"Given a string, find the length of the longest substring T that contains at most k distinct characters.\n\nFor example, Given s = “eceba” and k = 2,\n\nT is \"ece\" which its length is 3.\n","source":"New folder (2)/leetcode-solutions-master/leetcode-solutions-master/340_longest_substr_at_most_k_chars/problem.txt"}

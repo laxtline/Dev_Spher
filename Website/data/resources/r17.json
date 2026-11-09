@@ -1,0 +1,1 @@
+{"text":"import math\na=int(input())\nb=int(input())\nc=int(input())\nd=b**2-4*a*c \ne=math.sqrt(abs(d))\nx=-b/(2*a)\ny=e/(2*a)\nif(d>=0):\n    print(str(x+y)+','+str(x-y))\nelse:\n    print(str(x)+'+i'+str(y)+','+str(x)+'-i'+str(y))","source":"Accenture-Coding-Questions-Master/quadratic_equation.py"}

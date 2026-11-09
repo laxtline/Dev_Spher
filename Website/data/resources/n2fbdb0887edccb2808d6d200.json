@@ -1,0 +1,1 @@
+{"text":"func minCost(costs [][]int) int {\n\tr, g, b := 0, 0, 0\n\tfor _, cost := range costs {\n\t\t_r, _g, _b := r, g, b\n\t\tr = min(_g, _b) + cost[0]\n\t\tg = min(_r, _b) + cost[1]\n\t\tb = min(_r, _g) + cost[2]\n\t}\n\treturn min(r, min(g, b))\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 091. 粉刷房子/Solution.go"}

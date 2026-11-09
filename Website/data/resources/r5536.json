@@ -1,0 +1,1 @@
+{"text":"// 2 b\n\npublic class Test {\n\tpublic static void main(String[] args) {\n\t\tShape shape = new Shape();\n\t\tShape.Circle  circle = new Shape.Circle();\n\t\tcircle.draw();\n\t}\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/OverridingPolymorphism/src/Test.java"}

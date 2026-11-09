@@ -1,0 +1,1 @@
+{"text":"On first thought, this appears to be a O(N^2) problem.\n\nBut actually, it can be solved in a single pass: maintain a partial sum, when it is positive, add it to element i, else, reset sum from element i (sum = nums[i]).\n\nTime: O(N).","source":"New folder (2)/leetcode-solutions-master/leetcode-solutions-master/053_maximum_subarray/README.md"}

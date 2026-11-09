@@ -1,0 +1,1 @@
+{"text":"function isFlipedString(s1: string, s2: string): boolean {\n    return s1.length === s2.length && (s2 + s2).indexOf(s1) !== -1;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.09.String Rotation/Solution.ts"}

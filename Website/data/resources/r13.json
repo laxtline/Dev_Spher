@@ -1,0 +1,1 @@
+{"text":"a = input()\nb = input()\nc = ord(b)-ord(a)\nif(ord(b)+c) <= 122:\n    print(chr(ord(b)+c))\nelif(ord(b)+c) > 122:\n    x = 97+ord(b)+c-122\n    print(chr(x))\n\n# print(ord(a))\n","source":"Accenture-Coding-Questions-Master/next_letter.py"}

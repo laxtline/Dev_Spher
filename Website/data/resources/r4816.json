@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"ResumesResume\" ALTER COLUMN \"locationId\" DROP DEFAULT;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221105140124_revert_default_location/migration.sql"}

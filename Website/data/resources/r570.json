@@ -1,0 +1,1 @@
+{"text":"select department_name\nfrom department\nwhere department_block_number = 3\norder by department_name;","source":"Cognizant-Early-Engagement-main/SQL Programming/Department name based on block number/bselect3.sql"}

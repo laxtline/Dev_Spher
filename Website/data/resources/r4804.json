@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"ResumesResume\" ADD COLUMN     \"isResolved\" BOOLEAN NOT NULL DEFAULT false;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221027052436_resumes_add_is_resolved_status/migration.sql"}

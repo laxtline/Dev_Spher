@@ -1,0 +1,1 @@
+{"text":"# 176. Second Highest Salary\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect ifnull ((select distinct salary from Employee order by salary desc limit 1 offset 1), null) as SecondHighestSalary;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/176.md"}

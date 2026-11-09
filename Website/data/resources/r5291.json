@@ -1,0 +1,1 @@
+{"text":"let txt = prompt(\"Enter Text :\");\ndocument.write(\"Entered Text : \" + txt + \"<br>\");\ndocument.write(\"Upper Cased : \" + txt.toUpperCase());\n","source":"Wipro-PJP-main/Topics/JavaScript-CSS/JavaScript-Objects/upperCase.js"}

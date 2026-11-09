@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int maxSubArray(int[] nums) {\n        int ans = Integer.MIN_VALUE;\n        int f = 0;\n        for (int x : nums) {\n            f = Math.max(f, 0) + x;\n            ans = Math.max(ans, f);\n        }\n        return ans;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题42. 连续子数组的最大和/Solution.java"}

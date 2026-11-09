@@ -1,0 +1,1 @@
+{"text":"func multiply(A int, B int) int {\n\tif B == 1 {\n\t\treturn A\n\t}\n\tif B&1 == 1 {\n\t\treturn (multiply(A, B>>1) << 1) + A\n\t}\n\treturn multiply(A, B>>1) << 1\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.05.Recursive Mulitply/Solution.go"}

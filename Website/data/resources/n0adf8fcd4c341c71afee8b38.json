@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func smallestK(_ arr: [Int], _ k: Int) -> [Int] {\n        guard k > 0 else { return [] }\n        let sortedArray = arr.sorted()\n        return Array(sortedArray.prefix(k))\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.14.Smallest K/Solution.swift"}

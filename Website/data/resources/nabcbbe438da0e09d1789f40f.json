@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def smallestK(self, arr: List[int], k: int) -> List[int]:\n        h = []\n        for v in arr:\n            heappush(h, -v)\n            if len(h) > k:\n                heappop(h)\n        return [-v for v in h]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.14.Smallest K/Solution2.py"}

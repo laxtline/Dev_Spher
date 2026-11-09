@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func lastRemaining(_ n: Int, _ m: Int) -> Int {\n        return f(n, m)\n    }\n    \n    private func f(_ n: Int, _ m: Int) -> Int {\n        if n == 1 {\n            return 0\n        }\n        let x = f(n - 1, m)\n        return (m + x) % n\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题62. 圆圈中最后剩下的数字/Solution.swift"}

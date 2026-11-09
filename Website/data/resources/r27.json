@@ -1,0 +1,1 @@
+{"text":"lis1=list(map(int,input().split()))\nlis2=list(map(int,input().split()))\ns=0\nfor i in lis1:\n    if i not in lis2:\n        s+=i \nfor j in lis2:\n    if j not in lis1:\n        s+=j \nprint(s)","source":"Accenture-Coding-Questions-Master/sumofuncommon.py"}

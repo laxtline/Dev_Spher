@@ -1,0 +1,1 @@
+{"text":"#include <iostream>\n#include <vector>\n\nusing namespace std;\n\nint solve(int a,int b)\n{\n    return ceil(sqrt(a*a+b*b));\n}\n\nint main() {\n    int n;;\n    cin>>n;\n    int a,b;\n    while(n--)\n    {\n        cin>>a>>b;\n        cout<<solve(a,b)<<endl;\n    }\n    return 0;\n}\n","source":"Accenture-Coding-Round-main/Aug2024-2/Prob1.cpp"}

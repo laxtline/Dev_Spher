@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {number[]} prices\n * @return {number}\n */\nvar maxProfit = function (prices) {\n    let mi = 1 << 30;\n    let ans = 0;\n    for (const x of prices) {\n        ans = Math.max(ans, x - mi);\n        mi = Math.min(mi, x);\n    }\n    return ans;\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题63. 股票的最大利润/Solution.js"}

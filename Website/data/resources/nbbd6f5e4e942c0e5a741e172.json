@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func CheckPermutation(_ s1: String, _ s2: String) -> Bool {\n        let s1 = s1.sorted()\n        let s2 = s2.sorted()\n        return s1 == s2\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.02.Check Permutation/Solution2.swift"}

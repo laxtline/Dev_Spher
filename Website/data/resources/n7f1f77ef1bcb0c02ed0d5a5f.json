@@ -1,0 +1,1 @@
+{"text":"# Write your MySQL query statement below\nSELECT distinct tb1.Num as \"ConsecutiveNums\"\nFROM Logs as tb1, Logs as tb2, Logs as tb3\nWHERE tb1.Id + 1 = tb2.Id and tb2.Id + 1 = tb3.Id and tb1.Num = tb2.Num and tb2.Num = tb3.Num;","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode180-consecutive-numbers_mysql.sql"}

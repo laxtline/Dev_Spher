@@ -1,0 +1,1 @@
+{"text":"# 1050. Actors and Directors Who Cooperated At Least Three Times\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect actor_id, director_id from ActorDirector group by actor_id, director_id having count(*) >= 3;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/1050.md"}

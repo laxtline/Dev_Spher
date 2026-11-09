@@ -1,0 +1,1 @@
+{"text":"package com.cts.dao;\n\nimport com.cts.bean.Product;\n\npublic interface ProductDao {\n\n\tProduct getProductDetails(int product_code);\n}\n","source":"Cognizant-Early-Engagement-main/Spring Core, Maven/Billing Software Application/ProductDao.java"}

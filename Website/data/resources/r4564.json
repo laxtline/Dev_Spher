@@ -1,0 +1,1 @@
+{"text":"nums = list(map(int, input().split()))\nmaxSum = nums[0]\ncurrentSum = 0\nfor i in range(len(nums)):\n    currentSum += nums[i]\n    if currentSum > maxSum:\n        maxSum = max(currentSum, maxSum)\n    if currentSum < 0:\n        currentSum = 0\nprint(maxSum)","source":"TCS-NQT-2024-Coding-Solutions-main/14 May Shift 1/Maximum Sum of Subarray/codePy.py"}

@@ -1,0 +1,1 @@
+{"text":"public interface TuitionFee {\n    int calculateTuitionFees(String courseType, int basicFee, int noOfSemesters);\n}\n","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Collage Account/TuitionFee.java"}

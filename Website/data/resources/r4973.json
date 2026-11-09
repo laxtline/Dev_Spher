@@ -1,0 +1,1 @@
+{"text":"public class AllDigitsCount {\n    public static int allDigitsCount(int input1) {\n        return String.valueOf(input1).length();\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/AllDigitsCount.java"}

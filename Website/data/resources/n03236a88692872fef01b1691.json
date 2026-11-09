@@ -1,0 +1,1 @@
+{"text":"function CheckPermutation(s1: string, s2: string): boolean {\n    return [...s1].sort().join('') === [...s2].sort().join('');\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.02.Check Permutation/Solution2.ts"}

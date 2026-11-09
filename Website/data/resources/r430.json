@@ -1,0 +1,1 @@
+{"text":"public interface Loan {\n    double issueLoan();\n}\n","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Vehicle-Loan-Insurance - Use Interface/Loan.java"}

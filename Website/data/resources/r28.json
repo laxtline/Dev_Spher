@@ -1,0 +1,1 @@
+{"text":"lis = list(map(int, input().split()))\nn = len(lis)\ns = 0\nfor i in range(n-1):\n    lis2 = lis[i+1:]\n    m = max(lis2)\n    if lis[i] > m:\n        s += 1\nprint(s)\n","source":"Accenture-Coding-Questions-Master/superior_arr_element.py"}

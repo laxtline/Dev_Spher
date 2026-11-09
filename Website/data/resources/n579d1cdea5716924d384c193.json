@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def insertBits(self, N: int, M: int, i: int, j: int) -> int:\n        for k in range(i, j + 1):\n            N &= ~(1 << k)\n        return N | M << i\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.01.Insert Into Bits/Solution.py"}

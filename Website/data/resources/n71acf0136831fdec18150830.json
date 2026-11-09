@@ -1,0 +1,1 @@
+{"text":"func twoSum(numbers []int, target int) []int {\n\tfor i, j := 0, len(numbers)-1; ; {\n\t\tx := numbers[i] + numbers[j]\n\t\tif x == target {\n\t\t\treturn []int{i, j}\n\t\t}\n\t\tif x < target {\n\t\t\ti++\n\t\t} else {\n\t\t\tj--\n\t\t}\n\t}\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 006. 排序数组中两个数字之和/Solution2.go"}

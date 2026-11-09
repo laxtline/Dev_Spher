@@ -1,0 +1,1 @@
+{"text":"int game(int* guess, int guessSize, int* answer, int answerSize) {\n    int res = 0;\n    for (int i = 0; i < 3; i++) {\n        if (guess[i] == answer[i]) {\n            res++;\n        }\n    }\n    return res;\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 01. 猜数字/Solution.c"}

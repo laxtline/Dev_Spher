@@ -1,0 +1,1 @@
+{"text":"#include <iostream>\n\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n    int mSum = 0;\n    for (int i = 1; i <= n; i++) {\n        mSum += n * i;\n    }\n    cout << mSum << endl;\n    return 0;\n}\n","source":"TCS-NQT-2024-Coding-Solutions-main/29 APRIL 2024 Shift - 1/Multiplication table/code.cpp"}

@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"QuestionsQuestion\" ALTER COLUMN \"lastSeenAt\" DROP NOT NULL;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221023100925_update_last_seen_val_to_be_optional/migration.sql"}

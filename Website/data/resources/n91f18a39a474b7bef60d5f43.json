@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn reverse_left_words(s: String, n: i32) -> String {\n        let n = n as usize;\n        String::from(&s[n..]) + &s[..n]\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题58 - II. 左旋转字符串/Solution.rs"}

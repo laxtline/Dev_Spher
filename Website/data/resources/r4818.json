@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"Company\" ADD COLUMN     \"website\" TEXT;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221107014555_company_website/migration.sql"}

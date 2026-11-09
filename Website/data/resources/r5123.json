@@ -1,0 +1,1 @@
+{"text":"public interface LibraryUser{\n    public abstract void registerAccount();\n    public abstract void requestBook();\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Interfaces/LibraryUser.java"}

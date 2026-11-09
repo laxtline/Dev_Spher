@@ -1,0 +1,1 @@
+{"text":"# 3828. Final Element After Subarray Deletions\n\n## Solution 1 (time O(1), space O(1))\n\n```python\nclass Solution:\n    def finalElement(self, nums: List[int]) -> int:\n        return max(nums[0], nums[-1])\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Python/3828.md"}

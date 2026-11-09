@@ -1,0 +1,1 @@
+{"text":"list = [3, 4, -7, 1, 3, 3, 1, -4]\nk = 7\nn = len(list)\nres = []\nfor i in range(n):\n    temp = []\n    total = 0\n    for j in range(i, n):\n        total += list[j]\n        temp.append(list[j])\n        if total == k:\n            print(temp)\n\n            # res.append(temp)\n","source":"TCS-NQT-CODING-SHEET-main/Previously_Asked_Coding_Question/prev.py"}

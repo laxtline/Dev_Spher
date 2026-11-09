@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {number} n\n * @return {number}\n */\nvar numWays = function (n) {\n    let a = (b = 1);\n    while (n--) {\n        [a, b] = [b, (a + b) % (1e9 + 7)];\n    }\n    return a;\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题10- II. 青蛙跳台阶问题/Solution.js"}

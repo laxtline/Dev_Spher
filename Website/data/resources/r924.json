@@ -1,0 +1,1 @@
+{"text":"alter table cars\nadd column Car_Regno VARCHAR(10);","source":"Cognizant-GenC-Learn-main/SQL/Car rental system - add new column/query.sql"}

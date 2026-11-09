@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"OffersBackground\" ALTER COLUMN \"totalYoe\" SET DEFAULT 0;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221023203239_/migration.sql"}

@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func maxSubArray(_ nums: [Int]) -> Int {\n        var ans = Int.min\n        var f = Int.min\n\n        for x in nums {\n            f = max(f, 0) + x\n            ans = max(ans, f)\n        }\n\n        return ans\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.17.Contiguous Sequence/Solution.swift"}

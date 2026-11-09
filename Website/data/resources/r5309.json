@@ -1,0 +1,1 @@
+{"text":"update my_employee set last_name = 'Higgins'\nwhere employee_id = 202;\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/DML/dml8.sql"}

@@ -1,0 +1,1 @@
+{"text":"#include<bits/stdc++.h>\nusing namespace std;\n \nint main()\n{\n    int n;\n    cin>>n;\n    \n    string s;\n    cin>>s;\n    \n    int c=0;\n    \n    for(int i=0;i<n-1;i++)\n    {\n        if(s[i]==s[i+1])c++;\n    }\n    \n    cout<<c;\n    return 0;\n}","source":"Accenture-Coding-Round-main/20sept2024/StonesOnTable.cpp"}

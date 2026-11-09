@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func minNumber(_ nums: [Int]) -> String {\n        let sortedNums = nums.map { String($0) }\n                             .sorted { $0 + $1 < $1 + $0 }\n        return sortedNums.joined()\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题45. 把数组排成最小的数/Solution.swift"}

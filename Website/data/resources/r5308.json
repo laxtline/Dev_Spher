@@ -1,0 +1,1 @@
+{"text":"update my_employee set salary = salary + (salary * .10)\nwhere department_id = 90;\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/DML/dml7.sql"}

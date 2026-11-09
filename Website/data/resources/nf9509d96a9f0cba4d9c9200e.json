@@ -1,0 +1,1 @@
+{"text":"function subsets(nums: number[]): number[][] {\n    const res = [[]];\n    nums.forEach(num => {\n        res.forEach(item => {\n            res.push(item.concat(num));\n        });\n    });\n    return res;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.04.Power Set/Solution.ts"}

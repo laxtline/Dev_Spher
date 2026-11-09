@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int maxProfit(int[] prices) {\n        int mi = 1 << 30, ans = 0;\n        for (int x : prices) {\n            ans = Math.max(ans, x - mi);\n            mi = Math.min(mi, x);\n        }\n        return ans;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题63. 股票的最大利润/Solution.java"}

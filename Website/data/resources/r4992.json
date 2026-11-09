@@ -1,0 +1,1 @@
+{"text":"public class IsPrime {\n    public int isPrime(int input1) {\n        if (1 == input1)\n            return 1;\n\n        for (int i = 2; i <= Math.sqrt(input1); i++)\n            if (input1 % i == 0)\n                return 1;\n\n        return 2;\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/IsPrime.java"}

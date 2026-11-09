@@ -1,0 +1,1 @@
+{"text":"public class InvalidMovieTicketException extends Exception {\n\tpublic InvalidMovieTicketException(String message) {\n\t\tsuper(message);\n\t}\n}\n","source":"Cognizant-Early-Engagement-main/Unit Testing, Code Quality/Movie Ticket Booking/src/main/java/InvalidMovieTicketException.java"}

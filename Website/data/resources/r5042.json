@@ -1,0 +1,1 @@
+{"text":"package com.wipro.service;\n\nimport com.wipro.model.Login;\nimport com.wipro.model.User;\n\npublic interface UserService {\n\n\tint register(User user);\n\tUser validateUser(Login login);\n}\n","source":"Wipro-PJP-main/Mini-Projects/TM14/tm141/src/main/java/com/wipro/service/UserService.java"}

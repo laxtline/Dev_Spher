@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func groupAnagrams(_ strs: [String]) -> [[String]] {\n        var d = [String: [String]]()\n        for s in strs {\n            let t = String(s.sorted())\n            d[t, default: []].append(s)\n        }\n        return Array(d.values)\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/10.02.Group Anagrams/Solution.swift"}

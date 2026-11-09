@@ -1,0 +1,1 @@
+{"text":"def tree_mirror(node):\n    if not node:\n        return\n    node.left, node.right = node.right, node.left\n    tree_mirror(node.left)\n    tree_mirror(node.right)\n","source":"tech-interview-handbook-main/apps/website/experimental/utilities/python/tree_mirror.py"}

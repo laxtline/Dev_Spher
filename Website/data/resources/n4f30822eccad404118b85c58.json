@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    vector<int> countBits(int n) {\n        vector<int> f(n + 1);\n        for (int i = 1; i <= n; ++i) {\n            f[i] = f[i & (i - 1)] + 1;\n        }\n        return f;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 003. 前 n 个数字二进制中 1 的个数/Solution.cpp"}

@@ -1,0 +1,1 @@
+{"text":"package com.cts.academy.dao;\n\npublic interface TrainerCohortMapDAO {\n\tvoid mapTrainerCohort(String trainerId, String cohortCode);\n}\n","source":"Cognizant-Early-Engagement-main/Unit Testing, Code Quality/Test Call Back/TestCallback/src/main/java/com/cts/academy/dao/TrainerCohortMapDAO.java"}

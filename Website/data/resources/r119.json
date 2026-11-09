@@ -1,0 +1,1 @@
+{"text":"#include <iostream>\n#include <vector>\n\nusing namespace std;\nint main() {\n    int l;\n    cin>>l;\n    \n    cout<<int(3.14*l*l);\n}\n","source":"Accenture-Coding-Round-main/4sept2024/Prob1.cpp"}

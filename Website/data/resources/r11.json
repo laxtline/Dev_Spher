@@ -1,0 +1,1 @@
+{"text":"s1 = list(input().strip())\ns2 = list(set(s1))\ns2.sort()\ns = ''\nfor i in s2:\n    s += str(i)+str(s1.count(i))\nprint(s)\n","source":"Accenture-Coding-Questions-Master/letterfrequency.py"}

@@ -1,0 +1,1 @@
+{"text":"select car_id, car_name, car_type\nfrom cars\nwhere car_name like \"Maruthi%\" and car_type = \"Sedan\";\n","source":"Cognizant-GenC-Learn-main/SQL/Car details based on type and name/query.sql"}

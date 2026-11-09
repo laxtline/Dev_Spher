@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def isUnique(self, astr: str) -> bool:\n        mask = 0\n        for i in map(lambda c: ord(c) - ord(\"a\"), astr):\n            if (mask >> i) & 1:\n                return False\n            mask |= 1 << i\n        return True\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.01.Is Unique/Solution.py"}

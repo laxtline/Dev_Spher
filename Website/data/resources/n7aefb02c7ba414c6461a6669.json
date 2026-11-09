@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def lastRemaining(self, n: int, m: int) -> int:\n        def f(n, m):\n            if n == 1:\n                return 0\n            x = f(n - 1, m)\n            return (m + x) % n\n\n        return f(n, m)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题62. 圆圈中最后剩下的数字/Solution.py"}

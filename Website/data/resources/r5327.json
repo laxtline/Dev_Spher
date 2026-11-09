@@ -1,0 +1,1 @@
+{"text":"select last_name, job, salary from employees\nwhere job in ('Sales Representative','Stock Clerk') and salary not in (2500, 3500, 7000);\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Restricting-And-Sorting-Data/restrict_and_sort14.sql"}

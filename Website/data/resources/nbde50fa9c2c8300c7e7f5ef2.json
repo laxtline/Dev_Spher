@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {number} a\n * @param {number} b\n * @return {number}\n */\nvar add = function (a, b) {\n    if (b == 0) {\n        return a;\n    }\n    return add(a ^ b, (a & b) << 1);\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题65. 不用加减乘除做加法/Solution.js"}

@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"QuestionsAnswerComment\" ALTER COLUMN \"upvotes\" SET DEFAULT 0;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221024123849_add_upvotes_default_value/migration.sql"}

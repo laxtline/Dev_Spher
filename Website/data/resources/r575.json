@@ -1,0 +1,1 @@
+{"text":"select concat(hotel_name, ' is a ', hotel_type, ' hotel') as hotel_info\nfrom hotel_details\norder by hotel_name desc;","source":"Cognizant-Early-Engagement-main/SQL Programming/Hotel_info/sample.sql"}

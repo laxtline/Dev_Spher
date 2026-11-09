@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def topKFrequent(self, nums: List[int], k: int) -> List[int]:\n        cnt = Counter(nums)\n        return [v[0] for v in cnt.most_common(k)]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 060. 出现频率最高的 k 个数字/Solution.py"}

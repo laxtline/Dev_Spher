@@ -1,0 +1,1 @@
+{"text":"func isUnique(astr string) bool {\n\tmask := 0\n\tfor _, c := range astr {\n\t\ti := c - 'a'\n\t\tif mask>>i&1 == 1 {\n\t\t\treturn false\n\t\t}\n\t\tmask |= 1 << i\n\t}\n\treturn true\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.01.Is Unique/Solution.go"}

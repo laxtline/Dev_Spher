@@ -1,0 +1,1 @@
+{"text":"public class InvalidCountryException extends Exception {\n\tpublic InvalidCountryException() {\n\t\tsuper();\n\t\tSystem.out.println(\"InvalidCountryException occured\");\n\t\tSystem.out.println(\"User Outside India cannot be registered\");\n\t}\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Exception-Handling/InvalidCountryException.java"}

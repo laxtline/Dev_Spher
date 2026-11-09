@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def exchange(self, nums: List[int]) -> List[int]:\n        j = 0\n        for i, x in enumerate(nums):\n            if x & 1:\n                nums[i], nums[j] = nums[j], nums[i]\n                j += 1\n        return nums\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题21. 调整数组顺序使奇数位于偶数前面/Solution.py"}

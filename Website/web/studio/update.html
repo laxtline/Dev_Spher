@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Update StudyLab</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#17182b;color:#edf0ff;font:17px/1.6 system-ui,sans-serif;min-height:100vh;display:grid;place-items:center;padding:24px}main{width:min(100%,650px);padding:32px;border:1px solid #3c455f;border-radius:16px;background:#1c2540}h1{margin:8px 0 16px;font-size:32px}.brand{color:#ffb52b;font-weight:750}p{color:#c5d1e6}#status{padding:16px;border:1px solid #37886b;border-radius:8px;color:#e0ffef;background:#13372c}button,a{font:inherit}button{padding:12px 20px;border:0;border-radius:8px;background:#04aa6d;color:white;font-weight:650;cursor:pointer}button:disabled{opacity:.6;cursor:wait}a{color:#9fcbff}small{display:block;color:#aebbd1;margin-top:24px}
+</style>
+<main>
+  <div class="brand">StudyLab</div>
+  <h1>Open the updated StudyLab</h1>
+  <p>Restore the latest homepage with <strong>Study Material, My Study and Smart Revision</strong>.</p>
+  <p>Finish or save and leave any active test. Keep this page open and close other StudyLab tabs and installed app windows before applying the update.</p>
+  <p id="status" role="status" aria-live="polite">Checking for the latest app update…</p>
+  <button id="retry" type="button">Check and apply update</button>
+  <small>Your saved notes, answers and code stay in this browser. This page does not clear your progress or browser storage. An internet connection or a running local server is required.</small>
+  <p><a href="index.html#study">Open Study Material</a></p>
+</main>
+<script>
+'use strict';
+const status=document.getElementById('status'),retry=document.getElementById('retry');
+let applying=false,opening=false;
+function openApp(){if(opening)return;opening=true;status.textContent='Update applied. Opening Study Material…';location.replace(new URL('index.html#study',location.href));}
+function applyWorker(worker){return new Promise((resolve,reject)=>{const channel=new MessageChannel(),timer=setTimeout(()=>{channel.port1.close();reject(new Error('The update did not respond. Close other StudyLab tabs, then try again.'));},10000);channel.port1.onmessage=event=>{clearTimeout(timer);channel.port1.close();resolve(event.data);};worker.postMessage({type:'CODELAB_APPLY_UPDATE'},[channel.port2]);});}
+async function update(){
+  retry.disabled=true;applying=false;
+  try{
+    if(!isSecureContext||!('serviceWorker' in navigator))throw new Error('Open this page through HTTPS or your localhost launcher / Live Server.');
+    status.textContent='Downloading the latest app update…';
+    const registration=await navigator.serviceWorker.register(new URL('sw.js',location.href),{scope:new URL('./',location.href).href,updateViaCache:'none'});
+    await registration.update();
+    const deadline=Date.now()+45000;
+    while(registration.installing){if(Date.now()>deadline)throw new Error('The update is still downloading. Check your connection, then try again.');await new Promise(resolve=>setTimeout(resolve,150));}
+    if(!registration.waiting){if(!registration.active)throw new Error('The app update could not be installed. Check your connection and try again.');openApp();return;}
+    applying=true;
+    const result=await applyWorker(registration.waiting);
+    if(!result?.ok){applying=false;throw new Error(result?.message||'Close other StudyLab tabs and installed windows, then try again.');}
+    status.textContent='Applying the update. Your saved progress stays in this browser…';
+    setTimeout(()=>{if(!opening){applying=false;retry.disabled=false;status.textContent='The update is ready. Select Check and apply update to open StudyLab.';}},12000);
+  }catch(error){applying=false;status.textContent=error.message;}
+  finally{if(!opening&&!applying)retry.disabled=false;}
+}
+if('serviceWorker' in navigator)navigator.serviceWorker.addEventListener('controllerchange',()=>{if(applying)openApp();});
+retry.addEventListener('click',update);
+update();
+</script>
+</html>

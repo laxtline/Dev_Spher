@@ -1,0 +1,1 @@
+{"text":"select car_id, car_name, owner_id\nfrom cars\nwhere car_type in ('Hatchback', 'SUV')\norder by car_id;\n","source":"Cognizant-GenC-Learn-main/SQL/Car & owner details based on car type/query.sql"}

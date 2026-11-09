@@ -1,0 +1,1 @@
+{"text":"func firstUniqChar(s string) byte {\n\tcnt := [26]int{}\n\tfor _, c := range s {\n\t\tcnt[c-'a']++\n\t}\n\tfor _, c := range s {\n\t\tif cnt[c-'a'] == 1 {\n\t\t\treturn byte(c)\n\t\t}\n\t}\n\treturn ' '\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题50. 第一个只出现一次的字符/Solution.go"}

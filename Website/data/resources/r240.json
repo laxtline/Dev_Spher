@@ -1,0 +1,1 @@
+{"text":" import java.util.ArrayList;\n\npublic interface EmployeeAudit {\n\n // Fill the code\n public ArrayList<String> fetchEmployeeDetails(double salary);\n}","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Auditing/EmployeeAudit.java"}

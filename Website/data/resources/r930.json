@@ -1,0 +1,1 @@
+{"text":"select concat(customer_id, \" mail id is \",email_id) as CUSTOMER_MAIL_INFO\nfrom customers\norder by CUSTOMER_MAIL_INFO;","source":"Cognizant-GenC-Learn-main/SQL/Customer mail details/sample.sql"}

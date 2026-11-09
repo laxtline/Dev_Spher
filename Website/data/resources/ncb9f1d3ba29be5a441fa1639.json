@@ -1,0 +1,1 @@
+{"text":"# Write your MySQL query statement below\nSELECT tb1.FirstName, tb1.LastName, tb2.City, tb2.State\nFROM Person as tb1 \nleft join Address as tb2\non tb1.PersonId = tb2.PersonId;","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode175-combine-two-tables_mysql.sql"}

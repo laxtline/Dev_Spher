@@ -1,0 +1,1 @@
+{"text":"func exchange(nums []int) []int {\n\tj := 0\n\tfor i, x := range nums {\n\t\tif x&1 == 1 {\n\t\t\tnums[i], nums[j] = nums[j], nums[i]\n\t\t\tj++\n\t\t}\n\t}\n\treturn nums\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题21. 调整数组顺序使奇数位于偶数前面/Solution.go"}

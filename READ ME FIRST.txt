@@ -1,0 +1,15 @@
+PRATICE CODE PROJECT
+
+START HERE: open Start.pdf (English instructions).
+
+INSTALL ONCE: Installer\Pratice-Code-Setup.exe
+RUN DESKTOP APP DIRECTLY: App\Pratice Code.exe or OPEN_APP.cmd
+RUN LOCAL WEBSITE: OPEN_WEBSITE.cmd
+STOP LOCAL WEBSITE: STOP_WEBSITE.cmd
+
+App contains the complete desktop application, Python and its fixed rendering runtime.
+Website contains the complete local website/source and a bundled Python runtime.
+Both keep activity, code, notes and progress in their own studio-private\.codelab-data\progress.json file.
+The collected local copies include your available saved work.
+
+Keep this folder together when moving or copying it.

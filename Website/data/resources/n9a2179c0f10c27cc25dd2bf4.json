@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def multiply(self, A: int, B: int) -> int:\n        if B == 1:\n            return A\n        if B & 1:\n            return (self.multiply(A, B >> 1) << 1) + A\n        return self.multiply(A, B >> 1) << 1\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.05.Recursive Mulitply/Solution.py"}

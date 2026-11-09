@@ -1,0 +1,1 @@
+{"text":"// 1 a\n\npackage music;\n\npublic interface Playable {\n\n\tvoid play();\n\t\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Interfaces/src/music/Playable.java"}

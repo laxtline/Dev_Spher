@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int massage(int[] nums) {\n        int f = 0, g = 0;\n        for (int x : nums) {\n            int ff = g + x;\n            int gg = Math.max(f, g);\n            f = ff;\n            g = gg;\n        }\n        return Math.max(f, g);\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.16.The Masseuse/Solution.java"}

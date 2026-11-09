@@ -1,0 +1,1 @@
+{"text":"SELECT partner_id, partner_name, phone_no\nfrom delivery_partners\nwhere rating between 3 and 5\norder by partner_id;","source":"Cognizant-Early-Engagement-main/SQL Programming/Delivery Partner details based on rating/sample.sql"}

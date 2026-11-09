@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def maximum(self, a: int, b: int) -> int:\n        k = (int(((a - b) & 0xFFFFFFFFFFFFFFFF) >> 63)) & 1\n        return a * (k ^ 1) + b * k\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.07.Maximum/Solution.py"}

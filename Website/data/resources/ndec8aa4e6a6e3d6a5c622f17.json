@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def getMinimumTime(\n        self, time: List[int], fruits: List[List[int]], limit: int\n    ) -> int:\n        return sum((num + limit - 1) // limit * time[i] for i, num in fruits)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 55. 采集果实/Solution.py"}

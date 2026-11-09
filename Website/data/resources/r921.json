@@ -1,0 +1,1 @@
+{"text":"select distinct s.bus_no, b.bus_name\nfrom schedule s join buses b\non s.bus_no = b.bus_no\nwhere (s.source, s.destination) = any (\nselect s.destination, s.source \nfrom schedule s)\norder by s.bus_no;","source":"Cognizant-GenC-Learn-main/SQL/Buses based on Source and Destination/joins2bms.sql"}

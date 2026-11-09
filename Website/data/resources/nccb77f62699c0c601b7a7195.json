@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def numWays(self, n: int, relation: List[List[int]], k: int) -> int:\n        f = [1] + [0] * (n - 1)\n        for _ in range(k):\n            g = [0] * n\n            for a, b in relation:\n                g[b] += f[a]\n            f = g\n        return f[-1]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 07. 传递信息/Solution2.py"}

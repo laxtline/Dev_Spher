@@ -1,0 +1,1 @@
+{"text":"select concat(address,',',city) as Address \nfrom student\norder by Address desc;","source":"Cognizant-GenC-Learn-main/SQL/Concatenating Details/singlerow3.sql"}

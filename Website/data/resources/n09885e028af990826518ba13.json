@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def canPermutePalindrome(self, s: str) -> bool:\n        cnt = Counter(s)\n        return sum(v & 1 for v in cnt.values()) < 2\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.04.Palindrome Permutation/Solution.py"}

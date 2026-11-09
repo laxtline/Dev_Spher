@@ -1,0 +1,1 @@
+{"text":"func CheckPermutation(s1 string, s2 string) bool {\n\tcs1, cs2 := []byte(s1), []byte(s2)\n\tsort.Slice(cs1, func(i, j int) bool { return cs1[i] < cs1[j] })\n\tsort.Slice(cs2, func(i, j int) bool { return cs2[i] < cs2[j] })\n\treturn string(cs1) == string(cs2)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.02.Check Permutation/Solution2.go"}

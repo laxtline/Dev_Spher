@@ -1,0 +1,1 @@
+{"text":"func constructArr(a []int) []int {\n\tn := len(a)\n\tans := make([]int, n)\n\tfor i, left := 0, 1; i < n; i++ {\n\t\tans[i] = left\n\t\tleft *= a[i]\n\t}\n\tfor i, right := n-1, 1; i >= 0; i-- {\n\t\tans[i] *= right\n\t\tright *= a[i]\n\t}\n\treturn ans\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题66. 构建乘积数组/Solution.go"}

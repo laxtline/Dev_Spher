@@ -1,0 +1,1 @@
+{"text":"function minCost(costs: number[][]): number {\n    let [r, g, b] = [0, 0, 0];\n    for (const [_r, _g, _b] of costs) {\n        [r, g, b] = [_r + Math.min(g, b), _g + Math.min(r, b), _b + Math.min(r, g)];\n    }\n    return Math.min(r, g, b);\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 091. 粉刷房子/Solution.ts"}

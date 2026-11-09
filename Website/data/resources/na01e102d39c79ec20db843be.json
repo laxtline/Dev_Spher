@@ -1,0 +1,1 @@
+{"text":"function minCostClimbingStairs(cost: number[]): number {\n    let a = 0,\n        b = 0;\n    for (let i = 1; i < cost.length; ++i) {\n        [a, b] = [b, Math.min(a + cost[i - 1], b + cost[i])];\n    }\n    return b;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 088. 爬楼梯的最少成本/Solution2.ts"}

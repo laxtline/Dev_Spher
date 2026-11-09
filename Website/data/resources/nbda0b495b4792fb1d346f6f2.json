@@ -1,0 +1,1 @@
+{"text":"int minCount(int* coins, int coinsSize) {\n    int ans = 0;\n    for (int i = 0; i < coinsSize; ++i) {\n        ans += (coins[i] + 1) >> 1;\n    }\n    return ans;\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 06. 拿硬币/Solution.c"}

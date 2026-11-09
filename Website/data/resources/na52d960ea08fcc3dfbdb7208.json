@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    /**\n     * @param Integer[] $coins\n     * @return Integer\n     */\n    function minCount($coins) {\n        $ans = 0;\n        foreach ($coins as $x) {\n            $ans += $x + 1 >> 1;\n        }\n        return $ans;\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 06. 拿硬币/Solution.php"}

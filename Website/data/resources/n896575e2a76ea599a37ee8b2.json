@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int game(int[] guess, int[] answer) {\n        int ans = 0;\n        for (int i = 0; i < 3; ++i) {\n            if (guess[i] == answer[i]) {\n                ++ans;\n            }\n        }\n        return ans;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 01. 猜数字/Solution.java"}

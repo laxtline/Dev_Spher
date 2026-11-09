@@ -1,0 +1,1 @@
+{"text":"func search(nums []int, target int) int {\n\tl := sort.SearchInts(nums, target)\n\tr := sort.SearchInts(nums, target+1)\n\treturn r - l\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题53 - I. 在排序数组中查找数字 I/Solution.go"}

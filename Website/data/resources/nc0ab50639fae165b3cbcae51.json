@@ -1,0 +1,1 @@
+{"text":"# 181. Employees Earning More Than Their Managers\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect a.name as Employee from Employee as a join Employee as b on a.managerId = b.id and a.salary > b.salary;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/181.md"}

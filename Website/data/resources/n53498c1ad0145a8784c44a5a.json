@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func missingNumber(_ nums: [Int]) -> Int {\n        let nums = nums.sorted()\n        for (i, x) in nums.enumerated() {\n            if i != x {\n                return i\n            }\n        }\n        return nums.count\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.04.Missing Number/Solution.swift"}

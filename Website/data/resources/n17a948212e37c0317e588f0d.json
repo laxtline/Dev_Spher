@@ -1,0 +1,1 @@
+{"text":"func minCount(coins []int) (ans int) {\n\tfor _, x := range coins {\n\t\tans += (x + 1) >> 1\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 06. 拿硬币/Solution.go"}

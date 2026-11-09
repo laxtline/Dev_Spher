@@ -1,0 +1,1 @@
+{"text":"select orders.hotel_id, hotel_details.hotel_name, count(orders.order_id) as no_of_orders\nfrom orders, hotel_details\nwhere orders.hotel_id = hotel_details.hotel_id\ngroup by hotel_id\nhaving count(orders.order_id) > 5;","source":"Cognizant-Early-Engagement-main/SQL Programming/Hotels that took order more than five times/sample.sql"}

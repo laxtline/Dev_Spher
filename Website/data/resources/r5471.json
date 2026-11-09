@@ -1,0 +1,1 @@
+{"text":"// 1 b\n\npublic class Test {\n\n\tpublic static void main(String[] args) {\n\t\tBox box = new Box(2, 3, 4);\n\t\tSystem.out.println(box.volume());\n\t}\n\t\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/ClassesAndObjects/src/Test.java"}

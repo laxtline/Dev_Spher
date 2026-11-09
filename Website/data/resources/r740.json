@@ -1,0 +1,1 @@
+{"text":"\npublic class InvalidSalaryException extends Exception {\n\tpublic InvalidSalaryException(String message) {\n\t\tsuper(message);\n\t}\n\n}\n","source":"Cognizant-GenC-Learn-main/JAVA/Applying Object Oriented Concepts/Register a Candidate - User defined Exception(with throw and throws)/InvalidSalaryException.java"}

@@ -1,0 +1,1 @@
+{"text":"create table dept(\n    dept_id number (7),\n    dept_name varchar2 (20),\n    primary key(dept_id)\n);\n\ndescribe dept;\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/DDL/ddl1.sql"}

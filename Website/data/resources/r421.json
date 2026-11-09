@@ -1,0 +1,1 @@
+{"text":"public interface CommissionInfo {\n       public double calculateCommissionAmount(Ticket ticketObj);\n \n // Fill the code here  \n \n}\n","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Travel Agency/CommissionInfo.java"}

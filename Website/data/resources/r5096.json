@@ -1,0 +1,1 @@
+{"text":"public abstract class GeneralBank{\n    abstract double getSavingsInterestRate();\n    abstract double getFixedDepositInterestRate();\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Abstract-Classes/GeneralBank.java"}

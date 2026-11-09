@@ -1,0 +1,1 @@
+{"text":"select car_id, car_name, car_type \nfrom cars\nwhere car_id not in (select distinct car_id from rentals);","source":"Cognizant-Early-Engagement-main/SQL Programming/Cars not taken for rent/query.sql"}

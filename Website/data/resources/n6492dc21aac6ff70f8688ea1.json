@@ -1,0 +1,1 @@
+{"text":"func giveGem(gem []int, operations [][]int) int {\n\tfor _, op := range operations {\n\t\tx, y := op[0], op[1]\n\t\tv := gem[x] >> 1\n\t\tgem[y] += v\n\t\tgem[x] -= v\n\t}\n\treturn slices.Max(gem) - slices.Min(gem)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 50. 宝石补给/Solution.go"}

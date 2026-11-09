@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def CheckPermutation(self, s1: str, s2: str) -> bool:\n        return Counter(s1) == Counter(s2)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.02.Check Permutation/Solution.py"}

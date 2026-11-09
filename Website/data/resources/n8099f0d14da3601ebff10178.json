@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def addBinary(self, a: str, b: str) -> str:\n        num1 = int(a, 2)\n        num2 = int(b, 2)\n        sum0 = num1 + num2\n        return format(sum0, 'b')\n\n# 测试\nsol = Solution()\nprint(sol.addBinary('11', '1101'))","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/python3-leetcode/leetcode067-leetcode67-add-binary.py"}

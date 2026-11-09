@@ -1,0 +1,1 @@
+{"text":"# 595. Big Countries\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect name, population, area from World where area >= 3000000 or population >= 25000000;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/595.md"}

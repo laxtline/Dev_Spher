@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func isFlippedString(_ s1: String, _ s2: String) -> Bool {\n        return (s1.isEmpty && s2.isEmpty) || (s1.count == s2.count && (s1 + s1).contains(s2))\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.09.String Rotation/Solution.swift"}

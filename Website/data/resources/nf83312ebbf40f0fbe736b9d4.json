@@ -1,0 +1,1 @@
+{"text":"function massage(nums: number[]): number {\n    let f = 0,\n        g = 0;\n    for (const x of nums) {\n        const ff = g + x;\n        const gg = Math.max(f, g);\n        f = ff;\n        g = gg;\n    }\n    return Math.max(f, g);\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.16.The Masseuse/Solution.ts"}

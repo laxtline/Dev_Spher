@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def getValidT9Words(self, num: str, words: List[str]) -> List[str]:\n        trans = str.maketrans(ascii_lowercase, \"22233344455566677778889999\")\n        return [w for w in words if w.translate(trans) == num]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.20.T9/Solution2.py"}

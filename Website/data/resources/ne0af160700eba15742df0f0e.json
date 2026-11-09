@@ -1,0 +1,1 @@
+{"text":"func isStraight(nums []int) bool {\n\tvis := map[int]bool{}\n\tmi, mx := 20, -1\n\tfor _, x := range nums {\n\t\tif x == 0 {\n\t\t\tcontinue\n\t\t}\n\t\tif vis[x] {\n\t\t\treturn false\n\t\t}\n\t\tvis[x] = true\n\t\tmi = min(mi, x)\n\t\tmx = max(mx, x)\n\t}\n\treturn mx-mi <= 4\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题61. 扑克牌中的顺子/Solution.go"}

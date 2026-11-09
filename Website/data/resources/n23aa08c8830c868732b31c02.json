@@ -1,0 +1,1 @@
+{"text":"func searchInsert(nums []int, target int) int {\n\tleft, right := 0, len(nums)\n\tfor left < right {\n\t\tmid := (left + right) >> 1\n\t\tif nums[mid] >= target {\n\t\t\tright = mid\n\t\t} else {\n\t\t\tleft = mid + 1\n\t\t}\n\t}\n\treturn left\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 068. 查找插入位置/Solution.go"}

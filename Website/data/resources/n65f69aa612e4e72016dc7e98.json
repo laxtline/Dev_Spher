@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def singleNumbers(self, nums: List[int]) -> List[int]:\n        xs = reduce(xor, nums)\n        a = 0\n        lb = xs & -xs\n        for x in nums:\n            if x & lb:\n                a ^= x\n        b = xs ^ a\n        return [a, b]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题56 - I. 数组中数字出现的次数/Solution.py"}

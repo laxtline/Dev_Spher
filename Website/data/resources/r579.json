@@ -1,0 +1,1 @@
+{"text":"select distinct hotel_details.hotel_id, hotel_details.hotel_name, hotel_details.rating\nfrom hotel_details, orders\nwhere hotel_details.hotel_id = orders.hotel_id\n    and month(orders.order_date) = 7\norder by hotel_details.hotel_id;","source":"Cognizant-Early-Engagement-main/SQL Programming/Hotels that took order based on month/sample.sql"}

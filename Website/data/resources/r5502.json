@@ -1,0 +1,1 @@
+{"text":"// 2 a\n\npublic class Person {\n    private String name;\n\n    public Person(String name) {\n        this.name = name;\n    }\n\n    public String getName() {\n        return name;\n    }\n\n    public void setName(String name) {\n        this.name = name;\n    }\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Inheritance/src/Person.java"}

@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def firstUniqChar(self, s: str) -> str:\n        cnt = Counter(s)\n        for c in s:\n            if cnt[c] == 1:\n                return c\n        return \" \"\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题50. 第一个只出现一次的字符/Solution.py"}

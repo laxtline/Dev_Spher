@@ -1,0 +1,1 @@
+{"text":"package com.tm3.tests;\n\nimport org.junit.runner.RunWith;\nimport org.junit.runners.Suite;\n\n@RunWith(Suite.class)\n@Suite.SuiteClasses({\n    FDAccountTest.class,\n    RDAccountTest.class,\n    SBAccountTest.class\n})\n\npublic class UnitTest {\n\n\n\n}\n","source":"Wipro-PJP-main/Mini-Projects/TM4/com/tm3/tests/UnitTest.java"}

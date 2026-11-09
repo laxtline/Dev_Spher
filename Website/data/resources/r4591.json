@@ -1,0 +1,1 @@
+{"text":"n = int(input())\nmSum = 0\nfor i in range(1, n+1):\n    mSum += n * i \nprint(mSum)","source":"TCS-NQT-2024-Coding-Solutions-main/29 APRIL 2024 Shift - 1/Multiplication table/code.py"}

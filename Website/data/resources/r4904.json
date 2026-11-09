@@ -1,0 +1,1 @@
+{"text":"function treeMirror(node) {\n  if (!node) {\n    return;\n  }\n  let temp = node.left;\n  node.left = node.right;\n  node.right = temp;\n  treeMirror(node.left);\n  treeMirror(node.right);\n}\n","source":"tech-interview-handbook-main/apps/website/experimental/utilities/javascript/treeMirror.js"}

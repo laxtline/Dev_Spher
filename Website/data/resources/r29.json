@@ -1,0 +1,1 @@
+{"text":"lis = list(map(int, input().split()))\nn = len(lis)\ns = 0\nfor i in range(n):\n    c = 0\n    for j in range(i+1, n):\n        if lis[i] > lis[j]:\n            c += 1\n    if c == n-i-1:\n        s += 1\nprint(s)\n","source":"Accenture-Coding-Questions-Master/superior_element.py"}

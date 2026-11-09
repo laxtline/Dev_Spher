@@ -1,0 +1,1 @@
+{"text":"# Insert Records - Department\n\nInsert the following records into the department table\n\n| Department_id | Department_name | department_block_number |\n| 1 | CSE | 3 |\n| 2 | IT | 3 |\n| 3 | SE | 3 |\n\n![database diagram](../database_1.jpg)","source":"Cognizant-Early-Engagement-main/SQL Programming/Insert Records - Department/README.md"}

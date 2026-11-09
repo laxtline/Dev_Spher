@@ -1,0 +1,1 @@
+{"text":"package com.tm3.bean;\n\nabstract class Account {\n    double interestRate;\n    double amount;\n\n    abstract double calculateInterest();\n}\n","source":"Wipro-PJP-main/Mini-Projects/TM3/com/tm3/bean/Account.java"}

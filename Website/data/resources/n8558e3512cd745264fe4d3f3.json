@@ -1,0 +1,1 @@
+{"text":"func getMinimumTime(time []int, fruits [][]int, limit int) (ans int) {\n\tfor _, f := range fruits {\n\t\ti, num := f[0], f[1]\n\t\tans += (num + limit - 1) / limit * time[i]\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 55. 采集果实/Solution.go"}

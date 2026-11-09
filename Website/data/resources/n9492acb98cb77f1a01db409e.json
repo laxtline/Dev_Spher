@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def findRepeatNumber(self, nums: List[int]) -> int:\n        vis = set()\n        for v in nums:\n            if v in vis:\n                return v\n            vis.add(v)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题03. 数组中重复的数字/Solution2.py"}

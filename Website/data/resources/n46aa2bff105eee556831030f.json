@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def minCount(self, coins: List[int]) -> int:\n        return sum((x + 1) >> 1 for x in coins)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 06. 拿硬币/Solution.py"}

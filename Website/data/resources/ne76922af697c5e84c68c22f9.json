@@ -1,0 +1,1 @@
+{"text":"func leastMinutes(n int) int {\n\tans := 1\n\tfor speed := 1; speed < n; speed <<= 1 {\n\t\tans++\n\t}\n\treturn ans\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcs/LCS 01. 下载插件/Solution.go"}

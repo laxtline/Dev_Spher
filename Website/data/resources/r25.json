@@ -1,0 +1,1 @@
+{"text":"n = int(input())\narr = list(map(int, input().split()))\nx = max(arr)\ny = min(arr)\nprint(x+y)\n","source":"Accenture-Coding-Questions-Master/summaxmin.py"}

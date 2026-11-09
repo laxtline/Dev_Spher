@@ -1,0 +1,1 @@
+{"text":"// 4 a\n\npublic class Employee {\n\n\tprivate String name;\n\n\tpublic Employee(String name) {\n\t\tthis.name = name;\n\t}\n\n\tpublic void setName(String name) {\n\t\tthis.name = name;\n\t}\n\n\tpublic String getName() {\n\t\treturn name;\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/WrapperClasses/src/Employee.java"}

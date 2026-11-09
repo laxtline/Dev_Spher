@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def canPermutePalindrome(self, s: str) -> bool:\n        vis = set()\n        for c in s:\n            if c in vis:\n                vis.remove(c)\n            else:\n                vis.add(c)\n        return len(vis) < 2\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.04.Palindrome Permutation/Solution2.py"}

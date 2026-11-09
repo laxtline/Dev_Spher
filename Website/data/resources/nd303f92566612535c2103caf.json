@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def majorityElement(self, nums: List[int]) -> int:\n        cnt = m = 0\n        for v in nums:\n            if cnt == 0:\n                m, cnt = v, 1\n            else:\n                cnt += 1 if m == v else -1\n        return m\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题39. 数组中出现次数超过一半的数字/Solution.py"}

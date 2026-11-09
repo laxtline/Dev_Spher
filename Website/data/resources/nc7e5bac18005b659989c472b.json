@@ -1,0 +1,1 @@
+{"text":"func halfQuestions(questions []int) (ans int) {\n\tcnt := make([]int, 1010)\n\tfor _, x := range questions {\n\t\tcnt[x]++\n\t}\n\tn := len(questions) >> 1\n\tsort.Ints(cnt)\n\tfor i := len(cnt) - 1; n > 0; i-- {\n\t\tans++\n\t\tn -= cnt[i]\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcs/LCS 02. 完成一半题目/Solution.go"}

@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn reverse_words(s: String) -> String {\n        s.split_whitespace().rev().collect::<Vec<&str>>().join(\" \")\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题58 - I. 翻转单词顺序/Solution2.rs"}

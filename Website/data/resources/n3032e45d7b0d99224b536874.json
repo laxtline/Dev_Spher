@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int calculate(string s) {\n        int x = 1, y = 0;\n        for (char& c : s) {\n            if (c == 'A')\n                x = x * 2 + y;\n            else\n                y = y * 2 + x;\n        }\n        return x + y;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 17. 速算机器人/Solution.cpp"}

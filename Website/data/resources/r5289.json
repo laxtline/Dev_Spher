@@ -1,0 +1,1 @@
+{"text":"let txt = prompt(\"Enter text containing the word 'World' :\");\ndocument.write(\"Entered text : \" + txt + \"<br>\");\nlet pos = txt.indexOf(\"World\");\ndocument.write(\"Position of 'World' in text : \" + pos);\n","source":"Wipro-PJP-main/Topics/JavaScript-CSS/JavaScript-Objects/posWorld.js"}

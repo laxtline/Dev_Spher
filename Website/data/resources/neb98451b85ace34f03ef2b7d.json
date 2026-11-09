@@ -1,0 +1,1 @@
+{"text":"func maxSubArray(nums []int) int {\n\tans, f := math.MinInt32, math.MinInt32\n\tfor _, x := range nums {\n\t\tf = max(f, 0) + x\n\t\tans = max(ans, f)\n\t}\n\treturn ans\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.17.Contiguous Sequence/Solution.go"}

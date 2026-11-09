@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int convertInteger(int A, int B) {\n        return Integer.bitCount(A ^ B);\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.06.Convert Integer/Solution.java"}

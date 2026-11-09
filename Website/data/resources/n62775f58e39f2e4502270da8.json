@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func maximum(_ a: Int, _ b: Int) -> Int {\n        let diff = Int64(a) - Int64(b)\n        let k = Int((diff >> 63) & 1)\n        return a * (k ^ 1) + b * k\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.07.Maximum/Solution.swift"}

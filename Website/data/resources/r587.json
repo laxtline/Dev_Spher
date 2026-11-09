@@ -1,0 +1,1 @@
+{"text":"insert into department (Department_id, Department_name, department_block_number)\nvalues (1, \"CSE\", 3),\n       (2, \"IT\", 3),\n       (3, \"SE\", 3);","source":"Cognizant-Early-Engagement-main/SQL Programming/Insert Records - Department/insert.sql"}

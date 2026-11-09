@@ -1,0 +1,1 @@
+{"text":"select last_name, salary from employees\nwhere salary > &sal;\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Restricting-And-Sorting-Data/restrict_and_sort10.sql"}

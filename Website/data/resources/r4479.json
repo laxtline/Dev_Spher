@@ -1,0 +1,1 @@
+{"text":"Given a maximum of four digit to the base 17 (10 – A, 11 – B, 12 – C, 13 – D … 16 – G} as input, output its decimal value.\n\nTest Cases\nCase 1\nInput – 1A\nExpected Output – 27\nCase 2\nInput – 23GF\nExpected Output – 10980\n","source":"Programming-Aptitude-Interview-Prep-main/TCS - NINJA/Que 2/Problem Statement.txt"}

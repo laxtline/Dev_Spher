@@ -1,0 +1,1 @@
+{"text":"func divingBoard(shorter int, longer int, k int) []int {\n\tif k == 0 {\n\t\treturn []int{}\n\t}\n\tif longer == shorter {\n\t\treturn []int{longer * k}\n\t}\n\tvar ans []int\n\tfor i := 0; i < k+1; i++ {\n\t\tans = append(ans, longer*i+shorter*(k-i))\n\t}\n\treturn ans\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.11.Diving Board/Solution.go"}

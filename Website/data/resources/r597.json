@@ -1,0 +1,1 @@
+{"text":"select user_id, count(bd_id) as `no_of_times`\nfrom bookingdetails\ngroup by user_id asc;","source":"Cognizant-Early-Engagement-main/SQL Programming/Number of Tickets Booked/query.sql"}

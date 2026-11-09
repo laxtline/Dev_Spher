@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn min_number(mut nums: Vec<i32>) -> String {\n        nums.sort_by(|a, b| format!(\"{}{}\", a, b).cmp(&format!(\"{}{}\", b, a)));\n        nums.iter().map(|num| num.to_string()).collect()\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题45. 把数组排成最小的数/Solution.rs"}

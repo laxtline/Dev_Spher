@@ -1,0 +1,1 @@
+{"text":"SELECT customer_id, customer_name, address, phone_no\nfrom customers\nwhere email_id like '%@gmail.com'\norder by customer_id;","source":"Cognizant-GenC-Learn-main/SQL/Customers having gmail id/query.sql"}

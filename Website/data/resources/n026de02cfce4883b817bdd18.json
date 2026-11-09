@@ -1,0 +1,1 @@
+{"text":"public class Solution {\n    public int MaxProfit(int[] prices) {\n        int mi = 1 << 30;\n        int ans = 0;\n        foreach(int x in prices) {\n            ans = Math.Max(ans, x - mi);\n            mi = Math.Min(mi, x);\n        }\n        return ans;\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题63. 股票的最大利润/Solution.cs"}

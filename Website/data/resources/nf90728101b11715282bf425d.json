@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def giveGem(self, gem: List[int], operations: List[List[int]]) -> int:\n        for x, y in operations:\n            v = gem[x] >> 1\n            gem[y] += v\n            gem[x] -= v\n        return max(gem) - min(gem)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 50. 宝石补给/Solution.py"}

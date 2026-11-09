@@ -1,0 +1,1 @@
+{"text":"# Write your MySQL query statement below\nselect w2.id from Weather w1, Weather w2\nwhere DATEDIFF(w2.recordDate, w1.recordDate) = 1\nand w2.Temperature > w1.Temperature","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode197-rising-temperature_mysql.sql"}

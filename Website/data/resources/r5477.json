@@ -1,0 +1,1 @@
+{"text":"// 3 a\n\npublic class NegativeValueException extends Exception {\n\t\n\tpublic NegativeValueException(String errorMessage) {\n\t\tsuper(errorMessage);\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/ExceptionHandling/src/NegativeValueException.java"}

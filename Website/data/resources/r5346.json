@@ -1,0 +1,1 @@
+{"text":"import static org.junit.Assert.assertEquals;\nimport org.junit.Test;\n\npublic class UnitTest {\n    @Test\n    public void testStringConcat(){\n        Demo1 demo1 = new Demo1();\n        assertEquals(\"Result\", \"Hello World!\", demo1.stringConcat(\"Hello \", \"World!\"));\n    }\n}\n","source":"Wipro-PJP-main/Topics/JUnit/JUnit-With-Eclipse/UnitTest.java"}

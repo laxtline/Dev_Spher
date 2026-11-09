@@ -1,0 +1,1 @@
+{"text":"# 709. To Lower Case\n\n## Solution 1 (time O(n), space O(1))\n\n```python\nclass Solution(object):\n    def toLowerCase(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: str\n        \"\"\"\n        return s.lower()\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Python/709.md"}

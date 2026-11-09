@@ -1,0 +1,1 @@
+{"text":"func lastRemaining(n int, m int) int {\n\tf := 0\n\tfor i := 2; i <= n; i++ {\n\t\tf = (f + m) % i\n\t}\n\treturn f\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题62. 圆圈中最后剩下的数字/Solution2.go"}

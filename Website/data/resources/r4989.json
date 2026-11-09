@@ -1,0 +1,1 @@
+{"text":"public class IsMultiple{\n    public int isMultiple(int input1, int input2){\n        if (input1 == 0 || input2 == 0) return 3;\n        else if (input1 % input2 == 0) return 2;\n        else return 1;\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/IsMultiple.java"}

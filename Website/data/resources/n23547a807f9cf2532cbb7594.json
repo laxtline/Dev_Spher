@@ -1,0 +1,1 @@
+{"text":"# 2413. Smallest Even Multiple\n\n## Solution 1 (time O(1), space O(1))\n\n```python\nclass Solution(object):\n    def smallestEvenMultiple(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: int\n        \"\"\"\n        return n * 2 if n % 2 else n\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Python/2413.md"}

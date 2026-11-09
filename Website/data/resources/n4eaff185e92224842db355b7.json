@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func insertBits(_ N: Int, _ M: Int, _ i: Int, _ j: Int) -> Int {\n        var result = N\n\n        for k in i...j {\n            result &= ~(1 << k)\n        }\n\n        return result | (M << i)\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.01.Insert Into Bits/Solution.swift"}

@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def smallestK(self, arr: List[int], k: int) -> List[int]:\n        return sorted(arr)[:k]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.14.Smallest K/Solution.py"}

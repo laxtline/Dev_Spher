@@ -1,0 +1,1 @@
+{"text":"public class NFactorial {\n    private static int nFactorial(int input1) {\n        if (input1 < 2) return 1;\n        return input1 * nFactorial(input1 - 1);\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/NFactorial.java"}

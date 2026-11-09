@@ -1,0 +1,1 @@
+{"text":"func findNumberIn2DArray(matrix [][]int, target int) bool {\n\tfor _, row := range matrix {\n\t\tj := sort.SearchInts(row, target)\n\t\tif j < len(matrix[0]) && row[j] == target {\n\t\t\treturn true\n\t\t}\n\t}\n\treturn false\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题04. 二维数组中的查找/Solution.go"}

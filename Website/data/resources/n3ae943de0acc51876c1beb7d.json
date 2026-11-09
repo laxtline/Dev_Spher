@@ -1,0 +1,1 @@
+{"text":"# Write your MySQL query statement below\nselect a.Score as Score, \n(select count(distinct b.Score) from Scores b where b.Score >=a.Score) as 'Rank'\nfrom Scores a order by Score DESC;","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode178-rank-scores_mysql.sql"}

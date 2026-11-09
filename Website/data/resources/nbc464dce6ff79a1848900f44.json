@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int maxProfit(vector<int>& prices) {\n        int mi = 1 << 30, ans = 0;\n        for (int& x : prices) {\n            ans = max(ans, x - mi);\n            mi = min(mi, x);\n        }\n        return ans;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题63. 股票的最大利润/Solution.cpp"}

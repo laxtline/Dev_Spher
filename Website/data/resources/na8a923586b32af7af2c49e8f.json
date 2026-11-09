@@ -1,0 +1,1 @@
+{"text":"func missingNumber(nums []int) int {\n\tsort.Ints(nums)\n\tfor i, x := range nums {\n\t\tif i != x {\n\t\t\treturn i\n\t\t}\n\t}\n\treturn len(nums)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.04.Missing Number/Solution.go"}

@@ -1,0 +1,1 @@
+{"text":"func purchasePlans(nums []int, target int) int {\n\tsort.Ints(nums)\n\tres, mod := 0, 1000000007\n\tfor i, j := 0, len(nums)-1; i < j; i++ {\n\t\tfor i < j && nums[i]+nums[j] > target {\n\t\t\tj--\n\t\t}\n\t\tif i < j {\n\t\t\tres = (res + j - i) % mod\n\t\t}\n\t}\n\treturn res\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 28. 采购方案/Solution.go"}

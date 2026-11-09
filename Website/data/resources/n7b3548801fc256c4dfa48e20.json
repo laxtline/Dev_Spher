@@ -1,0 +1,1 @@
+{"text":"func storeWater(bucket []int, vat []int) int {\n\tmx := slices.Max(vat)\n\tif mx == 0 {\n\t\treturn 0\n\t}\n\tans := 1 << 30\n\tfor x := 1; x <= mx; x++ {\n\t\ty := 0\n\t\tfor i, v := range vat {\n\t\t\ty += max(0, (v+x-1)/x-bucket[i])\n\t\t}\n\t\tans = min(ans, x+y)\n\t}\n\treturn ans\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 33. 蓄水/Solution.go"}

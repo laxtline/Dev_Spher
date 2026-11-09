@@ -1,0 +1,1 @@
+{"text":"package com.wipro.automobile.ship;\n\npublic class Compartment{\n    public double height, width, depth;\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Packages/com/wipro/automobile/ship/Compartment.java"}

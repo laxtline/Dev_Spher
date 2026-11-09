@@ -1,0 +1,1 @@
+{"text":"n = int(input(\"How many days  \"))\ncharity = 0\nfor i in range(1, n+1):\n    charity += i**2\nprint(charity)\n","source":"Accenture-Coding-Questions-Master/daysincharity.py"}

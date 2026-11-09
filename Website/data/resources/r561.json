@@ -1,0 +1,1 @@
+{"text":"select customer_id, customer_name, ifnull(address, ifnull(email_id, \"NA\")) as contact_details\nfrom customes\norder by customer_id;","source":"Cognizant-Early-Engagement-main/SQL Programming/Customer contact details/query.sql"}

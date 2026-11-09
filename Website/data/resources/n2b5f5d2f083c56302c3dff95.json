@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int findRepeatNumber(vector<int>& nums) {\n        unordered_set<int> vis;\n        for (int i = 0;; ++i) {\n            if (vis.count(nums[i])) {\n                return nums[i];\n            }\n            vis.insert(nums[i]);\n        }\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题03. 数组中重复的数字/Solution2.cpp"}

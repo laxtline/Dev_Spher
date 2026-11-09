@@ -1,0 +1,1 @@
+{"text":"function isPrime(num) {\n    var prime = true;\n    for (var i = 2; i <= Math.sqrt(num); i++) {\n        if (num % i == 0) {\n            prime = false;\n        }\n    }\n    return prime;\n}\n","source":"Wipro-PJP-main/Topics/Java-8-Features/Nashorn/Demo.js"}

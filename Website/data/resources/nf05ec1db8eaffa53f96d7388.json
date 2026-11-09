@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    void wiggleSort(vector<int>& nums) {\n        sort(nums.begin(), nums.end());\n        int n = nums.size();\n        for (int i = 0; i < n - 1; i += 2) {\n            swap(nums[i], nums[i + 1]);\n        }\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcci/10.11.Peaks and Valleys/Solution.cpp"}

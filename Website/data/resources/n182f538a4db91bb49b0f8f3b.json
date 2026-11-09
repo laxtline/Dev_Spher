@@ -1,0 +1,1 @@
+{"text":"package graph;\n\nimport java.util.List;\n\npublic class CriticalConInANet {\n    public static List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {\nreturn null;\n    }\n\n}\n","source":"New folder (2)/leetcodepractice-main/leetcodepractice-main/src/graph/cycles/CriticalConInANet.java"}

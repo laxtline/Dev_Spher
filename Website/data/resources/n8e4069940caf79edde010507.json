@@ -1,0 +1,1 @@
+{"text":"func combinationSum4(nums []int, target int) int {\n\tdp := make([]int, target+1)\n\tdp[0] = 1\n\tfor i := 1; i <= target; i++ {\n\t\tfor _, num := range nums {\n\t\t\tif i >= num {\n\t\t\t\tdp[i] += dp[i-num]\n\t\t\t}\n\t\t}\n\t}\n\treturn dp[target]\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 104. 排列的数目/Solution.go"}

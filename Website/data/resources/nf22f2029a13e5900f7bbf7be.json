@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int add(int a, int b) {\n        int sum = 0, carry = 0;\n        while (b != 0) {\n            sum = a ^ b;\n            carry = (a & b) << 1;\n            a = sum;\n            b = carry;\n        }\n        return a;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.01.Add Without Plus/Solution.java"}

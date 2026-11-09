@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int rob(int[] nums) {\n        int f = 0, g = 0;\n        for (int x : nums) {\n            int ff = Math.max(f, g);\n            g = f + x;\n            f = ff;\n        }\n        return Math.max(f, g);\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 089. 房屋偷盗/Solution2.java"}

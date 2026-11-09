@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public String replaceSpace(String s) {\n        StringBuilder ans = new StringBuilder();\n        for (char c : s.toCharArray()) {\n            ans.append(c == ' ' ? \"%20\" : c);\n        }\n        return ans.toString();\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题05. 替换空格/Solution2.java"}

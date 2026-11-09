@@ -1,0 +1,1 @@
+{"text":"def findCubeSum(start, end):\n    cubeSum = 0\n    for i in range(start, end+1):\n        cubeSum += i ** 3 # i * i * i \n    print(cubeSum)\n\nstart, end  = map(int, input().split())\n# start = int(input())\n# end = int(input())\nfindCubeSum(start, end)","source":"TCS-NQT-2024-Coding-Solutions-main/26 APRIL 2024 SHIFT - 2/Cube sum/cubeSum.py"}

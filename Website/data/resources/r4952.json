@@ -1,0 +1,1 @@
+{"text":"const app = require('./app')\n\nconst port = process.env.PORT || 3000\napp.listen(port)\n\nconsole.log('\\x1b[32m%s\\x1b[0m', '[ Ok ]', `Server is running on port ${port}`)\n","source":"tech-mahindra-test-master/src/server.js"}

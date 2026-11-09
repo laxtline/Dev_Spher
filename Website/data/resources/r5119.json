@@ -1,0 +1,1 @@
+{"text":"public class ValuesOutOfRangeException extends Exception {\n\tpublic ValuesOutOfRangeException() {\n\t\tsuper();\n\t\tSystem.out.println(\"ValuesOutOfRangeException occured\");\n\t}\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Exception-Handling/ValuesOutOfRangeException.java"}

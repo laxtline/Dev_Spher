@@ -1,0 +1,1 @@
+{"text":"function game(guess: number[], answer: number[]): number {\n    return guess.reduce((acc, cur, index) => (cur === answer[index] ? acc + 1 : acc), 0);\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 01. 猜数字/Solution2.ts"}

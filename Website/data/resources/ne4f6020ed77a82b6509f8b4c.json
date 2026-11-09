@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int maximum(int a, int b) {\n        int k = (int) (((long) a - (long) b) >> 63) & 1;\n        return a * (k ^ 1) + b * k;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.07.Maximum/Solution.java"}

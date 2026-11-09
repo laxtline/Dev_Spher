@@ -1,0 +1,1 @@
+{"text":"package com.spring.exception;\n\npublic class InvalidParcelWeightException extends Exception {\n\tpublic InvalidParcelWeightException(String message) {\n\t\tsuper(message);\n\t}\n}\n","source":"Cognizant-Early-Engagement-main/Spring Core, Maven/Go Go Parcel Service/src/main/java/com/spring/exception/InvalidParcelWeightException.java"}

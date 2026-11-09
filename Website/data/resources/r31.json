@@ -1,0 +1,1 @@
+{"text":"class Stat{\n    public static void main(String args[]){\n        Stat1.multi(200,400);\n        System.out.println(\"Multiplication=\"+m);\n\n    }\n}\nclass Stat1{\n    static int m;\n    static int multi(int p,int q){\n        m=p*q;\n        return(m);\n    }\n}","source":"Accenture-Coding-Questions-Master/test.java"}

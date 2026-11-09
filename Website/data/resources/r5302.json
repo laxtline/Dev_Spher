@@ -1,0 +1,1 @@
+{"text":"create table my_employee as\nselect employee_id, first_name, last_name, department_id, salary from employees where 1=2;\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/DML/dml1.sql"}

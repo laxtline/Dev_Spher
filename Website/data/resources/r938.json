@@ -1,0 +1,1 @@
+{"text":"select h.hotel_id, h.hotel_name, count(o.hotel_id) as 'NO_OF_ORDERS' \nfrom hotel_details h , orders o\nwhere h.hotel_id = o.hotel_id\ngroup by h.hotel_id\nhaving count(o.hotel_id)>5;\n\n\n/*\nselect * from orders;\n*/","source":"Cognizant-GenC-Learn-main/SQL/Hotels that took order more than five times/sample.sql"}

@@ -1,0 +1,1 @@
+{"text":"func smallestK(arr []int, k int) []int {\n\tsort.Ints(arr)\n\tans := make([]int, k)\n\tfor i, v := range arr[:k] {\n\t\tans[i] = v\n\t}\n\treturn ans\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.14.Smallest K/Solution.go"}

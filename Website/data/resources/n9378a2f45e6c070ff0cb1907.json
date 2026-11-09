@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def exchangeBits(self, num: int) -> int:\n        return ((num & 0x55555555) << 1) | ((num & 0xAAAAAAAA) >> 1)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.07.Exchange/Solution.py"}

@@ -1,0 +1,1 @@
+{"text":"a = input()\nb = input()\n\nprint(ord(a))\n","source":"Accenture-Coding-Questions-Master/tempCodeRunnerFile.py"}

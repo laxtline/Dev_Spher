@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int exchangeBits(int num) {\n        return ((num & 0x55555555) << 1) | ((num & 0xaaaaaaaa)) >> 1;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.07.Exchange/Solution.cpp"}

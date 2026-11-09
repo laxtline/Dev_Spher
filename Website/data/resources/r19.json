@@ -1,0 +1,1 @@
+{"text":"n = int(input(\"How many elements  \"))\nlis = list(map(int, input().split()))\nlis = list(set(lis))\nlis.sort()\nif len(lis) >= 2:\n    print(lis[len(lis)-2])\nelse:\n    print(-1)\n","source":"Accenture-Coding-Questions-Master/secondlargest.py"}

@@ -1,0 +1,1 @@
+{"text":"func lastRemaining(n int, m int) int {\n\tvar f func(n, m int) int\n\tf = func(n, m int) int {\n\t\tif n == 1 {\n\t\t\treturn 0\n\t\t}\n\t\tx := f(n-1, m)\n\t\treturn (m + x) % n\n\t}\n\treturn f(n, m)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题62. 圆圈中最后剩下的数字/Solution.go"}

@@ -1,0 +1,1 @@
+{"text":"import java.io.IOException;\n\npublic class Main {\n    public static void main(String[] args) throws InterruptedException, IOException {\n        Scraper scraper = new Scraper();\n        scraper.setup();\n    }\n}","source":"New folder (2)/Leetcode-Premium-InterviewSheets-main/Leetcode-Premium-InterviewSheets-main/src/main/java/Main.java"}

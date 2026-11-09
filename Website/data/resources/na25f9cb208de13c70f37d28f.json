@@ -1,0 +1,1 @@
+{"text":"func pivotIndex(nums []int) int {\n\tleft, right := 0, 0\n\tfor _, x := range nums {\n\t\tright += x\n\t}\n\tfor i, x := range nums {\n\t\tright -= x\n\t\tif left == right {\n\t\t\treturn i\n\t\t}\n\t\tleft += x\n\t}\n\treturn -1\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 012. 左右两边子数组的和相等/Solution.go"}

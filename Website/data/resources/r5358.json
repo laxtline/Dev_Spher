@@ -1,0 +1,1 @@
+{"text":"public class Student extends Persons{\n    String stuID;\n    Student(String name, String dob, String stuID){\n        super(name, dob);\n        this.stuID = stuID;\n    }\n\n    void getDetails(){\n        super.getDetails();\n        System.out.printf(\"Student ID : %s%n\", this.stuID);\n    }\n}\n","source":"Wipro-PJP-main/Topics/OOPS/Inheritance/Student.java"}

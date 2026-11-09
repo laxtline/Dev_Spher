@@ -1,0 +1,1 @@
+{"text":"function minNumber(nums: number[]): string {\n    return nums.sort((a, b) => Number(`${a}${b}`) - Number(`${b}${a}`)).join('');\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题45. 把数组排成最小的数/Solution.ts"}

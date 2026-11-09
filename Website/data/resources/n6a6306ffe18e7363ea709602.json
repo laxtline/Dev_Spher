@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func exchangeBits(_ num: Int) -> Int {\n        let oddShifted = (num & 0x55555555) << 1\n        \n        let evenShifted = (num & 0xaaaaaaaa) >> 1\n        \n        return oddShifted | evenShifted\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.07.Exchange/Solution.swift"}

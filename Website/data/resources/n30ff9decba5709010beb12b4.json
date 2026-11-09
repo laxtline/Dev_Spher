@@ -1,0 +1,1 @@
+{"text":"func trailingZeroes(n int) int {\n\tans := 0\n\tfor n > 0 {\n\t\tn /= 5\n\t\tans += n\n\t}\n\treturn ans\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.05.Factorial Zeros/Solution.go"}

@@ -1,0 +1,1 @@
+{"text":"update customers set phone_no = 9876543210 \nwhere customer_id = \"CUST1004\";","source":"Cognizant-GenC-Learn-main/SQL/Hunger eats - update table/sample.sql"}

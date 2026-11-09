@@ -1,0 +1,1 @@
+{"text":"select last_name from employees\nwhere last_name like '__a%';\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Restricting-And-Sorting-Data/restrict_and_sort12.sql"}

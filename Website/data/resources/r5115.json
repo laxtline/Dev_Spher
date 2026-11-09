@@ -1,0 +1,1 @@
+{"text":"public class InvalidAgeException extends Exception {\n\tpublic InvalidAgeException() {\n\t\tsuper();\n\t\tSystem.out.println(\"Invalid age\");\n\t}\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Exception-Handling/InvalidAgeException.java"}

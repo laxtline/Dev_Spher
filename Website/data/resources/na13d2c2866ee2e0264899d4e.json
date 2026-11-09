@@ -1,0 +1,1 @@
+{"text":"function replaceSpaces(S: string, length: number): string {\n    return S.slice(0, length).replace(/\\s/g, '%20');\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.03.String to URL/Solution.ts"}

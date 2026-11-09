@@ -1,0 +1,1 @@
+{"text":"func getLeastNumbers(arr []int, k int) []int {\n\tsort.Ints(arr)\n\treturn arr[:k]\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题40. 最小的k个数/Solution.go"}

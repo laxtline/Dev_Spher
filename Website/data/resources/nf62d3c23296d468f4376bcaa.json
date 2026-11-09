@@ -1,0 +1,1 @@
+{"text":"func massage(nums []int) int {\n\tf, g := 0, 0\n\tfor _, x := range nums {\n\t\tf, g = g+x, max(f, g)\n\t}\n\treturn max(f, g)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.16.The Masseuse/Solution.go"}

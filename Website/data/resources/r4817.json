@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"Country\" ADD COLUMN     \"ranking\" INTEGER DEFAULT 0;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221106002645_country_ranking/migration.sql"}

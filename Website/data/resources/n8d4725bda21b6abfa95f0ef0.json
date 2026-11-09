@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def massage(self, nums: List[int]) -> int:\n        f = g = 0\n        for x in nums:\n            f, g = g + x, max(f, g)\n        return max(f, g)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.16.The Masseuse/Solution.py"}

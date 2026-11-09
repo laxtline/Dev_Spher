@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int lastRemaining(int n, int m) {\n        int f = 0;\n        for (int i = 2; i <= n; ++i) {\n            f = (f + m) % i;\n        }\n        return f;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题62. 圆圈中最后剩下的数字/Solution2.java"}

@@ -1,0 +1,1 @@
+{"text":"create table owners(\nowner_id varchar(10) primary key,\nowner_name varchar(20) null,\naddress varchar(20) null,\nphone_no bigint null,\nemail_id varchar(20) null);","source":"Cognizant-GenC-Learn-main/SQL/Car rental system - Create Table/query.sql"}

@@ -1,0 +1,1 @@
+{"text":"public class NthFibonacci {\n    public long nthFibonacci (int input1) {\n        long first = 0, second = 1, sum;\n\n        for (int i = 1; i < input1; i++) {\n            sum = first + second;\n            first = second;\n            second = sum;\n        }\n\n        return first;\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/NthFibonacci.java"}

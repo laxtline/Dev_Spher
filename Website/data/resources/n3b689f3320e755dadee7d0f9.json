@@ -1,0 +1,1 @@
+{"text":"func swapNumbers(numbers []int) []int {\n\tnumbers[0] ^= numbers[1]\n\tnumbers[1] ^= numbers[0]\n\tnumbers[0] ^= numbers[1]\n\treturn numbers\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.01.Swap Numbers/Solution.go"}

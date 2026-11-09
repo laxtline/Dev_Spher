@@ -1,0 +1,1 @@
+{"text":"function uppercase() {\n    var text = document.getElementById(\"text\");\n    text.value = text.value.toUpperCase();\n}\n","source":"Wipro-PJP-main/Topics/JavaScript-CSS/JavaScript-Objects/loseFocus.js"}

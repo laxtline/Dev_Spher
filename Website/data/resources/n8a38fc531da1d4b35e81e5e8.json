@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def lastRemaining(self, n: int, m: int) -> int:\n        f = 0\n        for i in range(2, n + 1):\n            f = (f + m) % i\n        return f\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题62. 圆圈中最后剩下的数字/Solution2.py"}

@@ -1,0 +1,1 @@
+{"text":"\npublic class DefaultMessage {\n\tprivate String message;\n\n\tpublic String getMessage() {\n\t\treturn message;\n\t}\n\n\tpublic void setMessage(String message) {\n\t\tthis.message = message;\n\t}\n\n}\n","source":"Wipro-PJP-main/Topics/Spring/Spring-Basics/Default-Message/src/main/java/DefaultMessage.java"}

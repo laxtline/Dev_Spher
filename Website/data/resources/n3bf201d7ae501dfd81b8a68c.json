@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def uniquePaths(self, m: int, n: int) -> int:\n        f = [[1] * n for _ in range(m)]\n        for i in range(1, m):\n            for j in range(1, n):\n                f[i][j] = f[i - 1][j] + f[i][j - 1]\n        return f[-1][-1]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 098. 路径的数目/Solution2.py"}

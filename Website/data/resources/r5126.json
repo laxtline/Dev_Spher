@@ -1,0 +1,1 @@
+{"text":"package music.string;\n\nimport music.Playable;\n\npublic class Veena implements Playable {\n    @Override\n    public void play(){\n        System.out.println(\"Playing Veena.\");\n    }\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Interfaces/music/string/Veena.java"}

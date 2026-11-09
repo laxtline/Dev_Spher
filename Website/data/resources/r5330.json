@@ -1,0 +1,1 @@
+{"text":"select last_name, job_ID, hire_date from employees\nwhere last_name in ('Matos', 'Taylor') order by hire_date;\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Restricting-And-Sorting-Data/restrict_and_sort4.sql"}

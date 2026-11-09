@@ -1,0 +1,1 @@
+{"text":"\npublic interface Loan {\n\tabstract double issueLoan();\n\n}\n","source":"Cognizant-GenC-Learn-main/JAVA/Applying Object Oriented Concepts/Vehicle-Loan-Insurance - Use Interface/Loan.java"}

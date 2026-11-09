@@ -1,0 +1,1 @@
+{"text":"public class Solution {\n    public string ReplaceSpace(string s) {\n        return s.Replace(\" \", \"%20\");\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题05. 替换空格/Solution.cs"}

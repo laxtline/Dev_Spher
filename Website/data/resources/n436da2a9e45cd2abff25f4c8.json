@@ -1,0 +1,1 @@
+{"text":"func cuttingRope(n int) int {\n\tif n < 4 {\n\t\treturn n - 1\n\t}\n\tif n%3 == 0 {\n\t\treturn int(math.Pow(3, float64(n/3)))\n\t}\n\tif n%3 == 1 {\n\t\treturn int(math.Pow(3, float64(n/3-1))) * 4\n\t}\n\treturn int(math.Pow(3, float64(n/3))) * 2\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题14- I. 剪绳子/Solution2.go"}

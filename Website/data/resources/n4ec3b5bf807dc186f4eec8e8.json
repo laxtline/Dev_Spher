@@ -1,0 +1,1 @@
+{"text":"class WordsFrequency {\n    private var cnt: [String: Int] = [:]\n\n    init(_ book: [String]) {\n        for word in book {\n            cnt[word, default: 0] += 1\n        }\n    }\n\n    func get(_ word: String) -> Int {\n        return cnt[word, default: 0]\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.02.Words Frequency/Solution.swift"}

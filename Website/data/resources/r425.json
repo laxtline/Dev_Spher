@@ -1,0 +1,1 @@
+{"text":"public interface Validate {\n    boolean validateName(String name);\n}\n","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Validate Name/Validate.java"}

@@ -1,0 +1,1 @@
+{"text":"UPDATE customers\nSET phone_no = 9876543210\nWHERE customer_id = \"CUST1004\";","source":"Cognizant-Early-Engagement-main/SQL Programming/Hunger eats - update table/sample.sql"}

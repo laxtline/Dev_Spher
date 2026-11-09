@@ -1,0 +1,1 @@
+{"text":"func numWays(n int) int {\n\ta, b := 1, 1\n\tfor i := 0; i < n; i++ {\n\t\ta, b = b, (a+b)%1000000007\n\t}\n\treturn a\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题10- II. 青蛙跳台阶问题/Solution.go"}

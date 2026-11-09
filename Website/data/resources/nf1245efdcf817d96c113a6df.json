@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {string} s\n * @return {string}\n */\nvar replaceSpace = function (s) {\n    const ans = [];\n    for (const c of s) {\n        ans.push(c === ' ' ? '%20' : c);\n    }\n    return ans.join('');\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题05. 替换空格/Solution3.js"}

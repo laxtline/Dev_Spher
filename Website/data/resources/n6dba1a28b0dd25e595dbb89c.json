@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn max_profit(prices: Vec<i32>) -> i32 {\n        let mut res = 0;\n        let mut min = i32::MAX;\n        for price in prices {\n            res = res.max(price - min);\n            min = min.min(price);\n        }\n        res\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题63. 股票的最大利润/Solution.rs"}

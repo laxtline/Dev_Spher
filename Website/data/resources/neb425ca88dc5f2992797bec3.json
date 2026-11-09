@@ -1,0 +1,1 @@
+{"text":"function multiply(A: number, B: number): number {\n    if (B === 1) {\n        return A;\n    }\n    if ((B & 1) === 1) {\n        return (multiply(A, B >> 1) << 1) + A;\n    }\n    return multiply(A, B >> 1) << 1;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.05.Recursive Mulitply/Solution.ts"}

@@ -1,0 +1,1 @@
+{"text":"# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\n\nclass Solution:\n    def deleteNode(self, node):\n        node.val = node.next.val\n        node.next = node.next.next\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/02.03.Delete Middle Node/Solution.py"}

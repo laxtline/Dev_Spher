@@ -1,0 +1,1 @@
+{"text":"public abstract class Instrument{\n    abstract void play();\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Abstract-Classes/Instrument.java"}

@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def add(self, a: int, b: int) -> int:\n        a, b = a & 0xFFFFFFFF, b & 0xFFFFFFFF\n        while b:\n            c = ((a & b) << 1) & 0xFFFFFFFF\n            a, b = a ^ b, c\n        return a if a < 0x80000000 else ~(a ^ 0xFFFFFFFF)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题65. 不用加减乘除做加法/Solution.py"}

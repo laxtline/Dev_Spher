@@ -1,0 +1,1 @@
+{"text":"select last_name, salary, commission from employees\nwhere commission is not null order by 2 desc, 3 desc;\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Restricting-And-Sorting-Data/restrict_and_sort9.sql"}

@@ -1,0 +1,1 @@
+{"text":"import java.util.*;\nclass Solution {\n    public int[] sortedSquares(int[] A) {\n        for(int i=0;i<A.length;i++){\n            A[i]=A[i]*A[i];\n        }\n        Arrays.sort(A);\n        return A;\n    }\n}\n","source":"New folder (2)/LeetCode-Solutions-master (2)/LeetCode-Solutions-master/Arrays/SquaresOfASortedArrays.java"}

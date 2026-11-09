@@ -1,0 +1,10 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.laxtline</groupId>
+  <artifactId>dev-spher-windows</artifactId>
+  <version>1.4.0</version>
+  <packaging>exe</packaging>
+  <name>Pratice Code Windows installer</name>
+  <description>Offline Windows installer with Python, WebView2 and the study library.</description>
+  <url>https://github.com/laxtline/Dev_Spher</url>
+</project>

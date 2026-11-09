@@ -1,0 +1,1 @@
+{"text":"select distinct(d.hotel_id), d.hotel_name, d.rating\nfrom hotel_details d , orders o\nwhere o.order_date between '2019-07-01' and '2019-07-31'\nand d.hotel_id=o.hotel_id\norder by hotel_id;\n","source":"Cognizant-GenC-Learn-main/SQL/Hotels that took order based on month/sample.sql"}

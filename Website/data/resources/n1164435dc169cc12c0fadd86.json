@@ -1,0 +1,1 @@
+{"text":"package model;\n\npublic record ProblemStatement(String id, String url, String title, String difficulty, String acceptancePercentage,\n                               String frequencyPercentage) {\n}","source":"New folder (2)/Leetcode-Premium-InterviewSheets-main/Leetcode-Premium-InterviewSheets-main/src/main/java/model/ProblemStatement.java"}

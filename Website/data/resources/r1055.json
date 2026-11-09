@@ -1,0 +1,1 @@
+{"text":"\"\"\"\ninput is 5624381275 seperate odd place integer = 6,4,8,2,5\nreturn 4 digit otp by square the digit.\n\nsquare is 6,4,8,2,5 = 36,16,64,4,25.\nso the otp is 3616.\n\"\"\"\n\n\ninterger = list(input())\nstring = \"\"\ni=1\nwhile i<len(interger):\n    string+=str(int(interger[i])**2)\n    i+=2\nprint(string[:4])","source":"Infytq-2022-Preparation-master/code2.py"}

@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func findNumberIn2DArray(_ matrix: [[Int]], _ target: Int) -> Bool {\n        for row in matrix {\n            if let _ = row.firstIndex(of: target) {\n                return true\n            }\n        }\n        return false\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题04. 二维数组中的查找/Solution.swift"}

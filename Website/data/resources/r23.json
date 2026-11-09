@@ -1,0 +1,1 @@
+{"text":"str1 = input(\"Enter first string    \")\nstr2 = input(\"Enter second string   \")\nif str2 in str1:\n    print('Yes')\nelse:\n    print('No')\n","source":"Accenture-Coding-Questions-Master/stringinstring.py"}

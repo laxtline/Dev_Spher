@@ -1,0 +1,1 @@
+{"text":"package com.spring.app;\n\npublic class EmployeeDAO {\n\tprivate DBConfig dbConfig;\n\n\tpublic DBConfig getDbConfig() {\n\t\treturn dbConfig;\n\t}\n\n\tpublic void setDbConfig(DBConfig dbConfig) {\n\t\tthis.dbConfig = dbConfig;\n\t}\n}\n\n","source":"Cognizant-Early-Engagement-main/Spring Core, Maven/DBConfig-SetterBasedInjection/EmployeeDAO.java"}

@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def isFlipedString(self, s1: str, s2: str) -> bool:\n        return len(s1) == len(s2) and s2 in s1 * 2\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.09.String Rotation/Solution.py"}

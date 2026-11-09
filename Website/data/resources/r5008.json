@@ -1,0 +1,1 @@
+{"text":"public class SecondLastDigitOfN{\n    public int secondLastDigitOfN(int input1){\n        if (input1 > 9 || input1 < -9){\n            input1 /= 10;\n            return Math.abs(input1 % 10);\n        }\n        else return -1;\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/SecondLastDigitOfN.java"}

@@ -1,0 +1,1 @@
+{"text":"func singleNumber(nums []int) int {\n\tvar ans int32\n\tfor i := 0; i < 32; i++ {\n\t\tcnt := 0\n\t\tfor _, x := range nums {\n\t\t\tcnt += x >> i & 1\n\t\t}\n\t\tcnt %= 3\n\t\tans |= int32(cnt) << i\n\t}\n\treturn int(ans)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 004. 只出现一次的数字/Solution.go"}

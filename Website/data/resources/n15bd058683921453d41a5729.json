@@ -1,0 +1,1 @@
+{"text":"function fib(n: number): number {\n    let a: number = 0,\n        b: number = 1;\n    for (let i: number = 0; i < n; i++) {\n        let c: number = (a + b) % 1000000007;\n        [a, b] = [b, c];\n    }\n    return a;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题10- I. 斐波那契数列/Solution.ts"}

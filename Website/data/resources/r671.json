@@ -1,0 +1,1 @@
+{"text":"git log > log.log\n\ntouch .gitignore\n\nIn .gitignore file \n*.log\nlog_folder\n\nmkdir log_folder\n\ngit add .gitignore\n\ngit commit -m \"Adding gitignore\"\n\ngit push\n\n","source":"Cognizant-GenC-Learn-main/Git/git 2nd.txt"}

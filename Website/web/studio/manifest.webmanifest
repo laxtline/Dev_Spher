@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "StudyLab — Coding & Placement Practice",
+  "short_name": "StudyLab",
+  "description": "Coding, aptitude, theory and your offline study collection.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#191a2e",
+  "theme_color": "#17213a",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

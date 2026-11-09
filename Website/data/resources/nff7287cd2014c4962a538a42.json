@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def maxSubArray(self, nums: List[int]) -> int:\n        ans, f = -inf, 0\n        for x in nums:\n            f = max(f, 0) + x\n            ans = max(ans, f)\n        return ans\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题42. 连续子数组的最大和/Solution.py"}

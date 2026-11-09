@@ -1,0 +1,1 @@
+{"text":"public class Solution {\n    public int result;\n    public int SumNums(int n) {\n        helper(n);\n        return result;\n    }\n\n    public bool helper(int n) {\n        result += n;\n        return n == 0 || helper(n - 1);\n    }\n}\n\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题64. 求1+2+…+n/Solution.cs"}

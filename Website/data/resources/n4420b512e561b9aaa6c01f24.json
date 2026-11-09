@@ -1,0 +1,1 @@
+{"text":"func singleNumbers(nums []int) []int {\n\txs := 0\n\tfor _, x := range nums {\n\t\txs ^= x\n\t}\n\tlb := xs & -xs\n\ta := 0\n\tfor _, x := range nums {\n\t\tif x&lb != 0 {\n\t\t\ta ^= x\n\t\t}\n\t}\n\tb := xs ^ a\n\treturn []int{a, b}\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题56 - I. 数组中数字出现的次数/Solution.go"}

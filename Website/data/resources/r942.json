@@ -1,0 +1,1 @@
+{"text":"insert into Department values(1,'CSE',3);\ninsert into Department values(2,'IT',3);\ninsert into Department values(3,'SE',3);","source":"Cognizant-GenC-Learn-main/SQL/Insert Records - Department/insert.sql"}

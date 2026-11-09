@@ -1,0 +1,1 @@
+{"text":"// 1 a\n\npublic abstract class Compartment {\n\n\tpublic abstract String notice();\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/AbstractClasses/src/Compartment.java"}

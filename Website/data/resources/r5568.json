@@ -1,0 +1,1 @@
+{"text":"// 5\n\npublic class MiddleString {\n\n\tpublic static void main(String[] args) {\n\t\tString str = \"abcd\";\n\n\t\tSystem.out.println(str.substring(1, str.length() - 1));\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Strings/src/MiddleString.java"}

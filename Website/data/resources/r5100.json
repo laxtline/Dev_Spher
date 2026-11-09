@@ -1,0 +1,1 @@
+{"text":"class KotakBank extends GeneralBank{\n    double getSavingsInterestRate(){\n        return(6.0);\n    }\n\n    double getFixedDepositInterestRate(){\n        return(9.0);\n    }\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Abstract-Classes/KotakBank.java"}

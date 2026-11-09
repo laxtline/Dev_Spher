@@ -1,0 +1,1 @@
+{"text":"function rob(nums: number[]): number {\n    let [f, g] = [0, 0];\n    for (const x of nums) {\n        [f, g] = [Math.max(f, g), f + x];\n    }\n    return Math.max(f, g);\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 089. 房屋偷盗/Solution2.ts"}

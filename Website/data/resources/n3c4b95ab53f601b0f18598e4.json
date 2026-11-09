@@ -1,0 +1,1 @@
+{"text":"function getMinimumTime(time: number[], fruits: number[][], limit: number): number {\n    let ans = 0;\n    for (const [i, num] of fruits) {\n        ans += Math.ceil(num / limit) * time[i];\n    }\n    return ans;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 55. 采集果实/Solution.ts"}

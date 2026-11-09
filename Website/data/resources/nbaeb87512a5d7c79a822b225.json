@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar missingNumber = function (nums) {\n    let ans = 0;\n    for (let i = 1; i <= nums.length; ++i) {\n        ans ^= i ^ nums[i - 1];\n    }\n    return ans;\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.04.Missing Number/Solution3.js"}

@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    vector<int> getLeastNumbers(vector<int>& arr, int k) {\n        sort(arr.begin(), arr.end());\n        return vector<int>(arr.begin(), arr.begin() + k);\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题40. 最小的k个数/Solution.cpp"}

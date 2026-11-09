@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    bool CheckPermutation(string s1, string s2) {\n        ranges::sort(s1);\n        ranges::sort(s2);\n        return s1 == s2;\n    }\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.02.Check Permutation/Solution2.cpp"}

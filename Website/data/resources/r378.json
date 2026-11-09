@@ -1,0 +1,1 @@
+{"text":"public class InvalidSalaryException extends Exception {\n    public InvalidSalaryException(String message) {\n        super(message);\n    }\n}\n","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Register a Candidate - User defined Exception(with throw and throws)/InvalidSalaryException.java"}

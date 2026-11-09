@@ -1,0 +1,1 @@
+{"text":"select partner_id, partner_name, phone_no\nfrom delivery_partners\nwhere rating between 3 and 5\norder by partner_id;","source":"Cognizant-GenC-Learn-main/SQL/Delivery Partner details based on rating/sample.sql"}

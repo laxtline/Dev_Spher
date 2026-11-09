@@ -1,0 +1,1 @@
+{"text":"DB_DRIVER_CLASS=com.mysql.jdbc.Driver\nDB_URL=jdbc:mysql://localhost:3306/testbase\nDB_USERNAME=ritam\nDB_PASSWORD=password\n","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Retrieve ID and Price of mobiles with in the range/database.properties.txt"}

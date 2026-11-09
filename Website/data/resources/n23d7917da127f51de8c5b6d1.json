@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn multiply(a: i32, b: i32) -> i32 {\n        if b == 1 {\n            return a;\n        }\n        if (b & 1) == 1 {\n            return (Self::multiply(a, b >> 1) << 1) + a;\n        }\n        Self::multiply(a, b >> 1) << 1\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.05.Recursive Mulitply/Solution.rs"}

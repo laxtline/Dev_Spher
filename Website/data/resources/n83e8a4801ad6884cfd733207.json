@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {number} n\n * @return {number}\n */\nvar waysToStep = function (n) {\n    let [a, b, c] = [1, 2, 4];\n    const mod = 1e9 + 7;\n    for (let i = 1; i < n; ++i) {\n        [a, b, c] = [b, c, (a + b + c) % mod];\n    }\n    return a;\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.01.Three Steps Problem/Solution.js"}

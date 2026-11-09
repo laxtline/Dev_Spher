@@ -1,0 +1,1 @@
+{"text":"N = int(input())\narr = list(map(int, input().split()))\narr.sort()\n\n#Max values\nemp1 = arr[N-1]\nemp2 = arr[N-2]\nemp3 = arr[N-3]\n\n#negative case\nneg1 = arr[0]\nneg2 = arr[1]\n\nprint(max(emp1 * emp2 * emp3, neg1 * neg2 * emp1))\n","source":"TCS-NQT-2024-Coding-Solutions-main/3 May SHIFT 2/Maximum Efficiency/code.py"}

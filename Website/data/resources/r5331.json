@@ -1,0 +1,1 @@
+{"text":"select last_name, dept_ID from employees\nwhere dept_ID in (20, 50) order by last_name;\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Restricting-And-Sorting-Data/restrict_and_sort5.sql"}

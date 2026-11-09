@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int sumNums(int n) {\n        int s = n;\n        boolean t = n > 0 && (s += sumNums(n - 1)) > 0;\n        return s;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题64. 求1+2+…+n/Solution.java"}

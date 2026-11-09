@@ -1,0 +1,1 @@
+{"text":"/**\n * Definition for singly-linked list.\n * type ListNode struct {\n *     Val int\n *     Next *ListNode\n * }\n */\nfunc reversePrint(head *ListNode) (ans []int) {\n\tif head == nil {\n\t\treturn\n\t}\n\tans = reversePrint(head.Next)\n\tans = append(ans, head.Val)\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题06. 从尾到头打印链表/Solution2.go"}

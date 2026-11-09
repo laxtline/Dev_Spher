@@ -1,0 +1,1 @@
+{"text":"const jwt = require('jsonwebtoken')\n\nmodule.exports = {\n\tgenerateToken: params => (\n\t\tjwt.sign({ params }, process.env.APP_SECRET, { expiresIn: '1h' })\n\t)\n}\n","source":"tech-mahindra-test-master/src/app/services/user.js"}

@@ -1,0 +1,1 @@
+{"text":"public class IsOdd {\n    public int isOdd(int input1){\n        if (input1 % 2 == 0) return 1;\n        else return 2;\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/IsOdd.java"}

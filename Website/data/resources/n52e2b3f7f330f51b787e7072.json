@@ -1,0 +1,1 @@
+{"text":"# Write your MySQL query statement below\nUPDATE salary\nSET sex=(IF(sex='f', 'm', 'f'))","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode627-swap-salary_mysql2.sql"}

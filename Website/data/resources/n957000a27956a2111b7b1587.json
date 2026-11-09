@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def leastMinutes(self, n: int) -> int:\n        speed = ans = 1\n        while speed < n:\n            speed <<= 1\n            ans += 1\n        return ans\n","source":"New folder (2)/leetcode-main/leetcode-main/lcs/LCS 01. 下载插件/Solution.py"}

@@ -1,0 +1,1 @@
+{"text":"select  car_id, count(car_id) as \"NO_OF_TRIPS\"\nfrom rentals\ngroup by car_id\norder by car_id;","source":"Cognizant-GenC-Learn-main/SQL/No of time rented by each car/query.sql"}

@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def game(self, guess: List[int], answer: List[int]) -> int:\n        return sum(a == b for a, b in zip(guess, answer))\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 01. 猜数字/Solution.py"}

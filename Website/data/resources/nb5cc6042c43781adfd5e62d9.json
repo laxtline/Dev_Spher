@@ -1,0 +1,1 @@
+{"text":"# 175. Combine Two Tables\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect firstName, lastName, city, state from Person left join Address on Person.personId = Address.personId;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/175.md"}

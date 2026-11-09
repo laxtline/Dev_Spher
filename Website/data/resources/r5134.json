@@ -1,0 +1,1 @@
+{"text":"package test;\npublic class Foundation{\n    private int var1;\n    int var2;\n    protected int var3;\n    public int var4;\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Packages/test/Foundation.java"}
