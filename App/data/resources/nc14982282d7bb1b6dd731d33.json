@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func trailingZeroes(_ n: Int) -> Int {\n        var count = 0\n        var number = n\n        while number > 0 {\n            number /= 5\n            count += number\n        }\n        return count\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.05.Factorial Zeros/Solution.swift"}

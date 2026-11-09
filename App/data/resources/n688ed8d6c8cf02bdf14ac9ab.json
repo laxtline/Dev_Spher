@@ -1,0 +1,1 @@
+{"text":"func maxProfit(prices []int) (ans int) {\n\tmi := 1 << 30\n\tfor _, x := range prices {\n\t\tans = max(ans, x-mi)\n\t\tmi = min(mi, x)\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题63. 股票的最大利润/Solution.go"}

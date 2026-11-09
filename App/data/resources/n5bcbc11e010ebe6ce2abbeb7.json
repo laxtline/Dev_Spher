@@ -1,0 +1,1 @@
+{"text":"# Write your MySQL query statement below\nSELECT tb1.name, tb1.population, tb1.area\nFROM World as tb1\nWHERE tb1.area >= 3000000 or tb1.population >= 25000000;","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode595-big-countries_mysql.sql"}

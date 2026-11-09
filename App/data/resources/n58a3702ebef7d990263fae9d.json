@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def expectNumber(self, scores: List[int]) -> int:\n        return len(set(scores))\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 11. 期望个数统计/Solution.py"}

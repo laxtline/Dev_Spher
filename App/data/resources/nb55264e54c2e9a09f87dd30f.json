@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn rob(nums: Vec<i32>) -> i32 {\n        let mut f = [0, 0];\n        for x in nums {\n            f = [f[0].max(f[1]), f[0] + x];\n        }\n        f[0].max(f[1])\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 089. 房屋偷盗/Solution.rs"}

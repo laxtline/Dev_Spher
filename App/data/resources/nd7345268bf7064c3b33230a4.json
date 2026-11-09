@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int maxSubArray(vector<int>& nums) {\n        int ans = INT_MIN;\n        int f = 0;\n        for (int& x : nums) {\n            f = max(f, 0) + x;\n            ans = max(ans, f);\n        }\n        return ans;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题42. 连续子数组的最大和/Solution.cpp"}

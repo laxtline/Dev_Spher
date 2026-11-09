@@ -1,0 +1,1 @@
+{"text":"func lengthOfLongestSubstring(s string) (ans int) {\n\tss := make([]bool, 128)\n\tj := 0\n\tfor i, c := range s {\n\t\tfor ss[c] {\n\t\t\tss[s[j]] = false\n\t\t\tj++\n\t\t}\n\t\tss[c] = true\n\t\tans = max(ans, i-j+1)\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 016. 不含重复字符的最长子字符串/Solution.go"}

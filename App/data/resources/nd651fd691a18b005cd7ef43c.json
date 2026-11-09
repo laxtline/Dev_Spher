@@ -1,0 +1,1 @@
+{"text":"func canPermutePalindrome(s string) bool {\n\tvis := map[rune]bool{}\n\tfor _, c := range s {\n\t\tif vis[c] {\n\t\t\tdelete(vis, c)\n\t\t} else {\n\t\t\tvis[c] = true\n\t\t}\n\t}\n\treturn len(vis) < 2\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.04.Palindrome Permutation/Solution2.go"}

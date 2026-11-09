@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn convert_integer(a: i32, b: i32) -> i32 {\n        (a ^ b).count_ones() as i32\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.06.Convert Integer/Solution.rs"}

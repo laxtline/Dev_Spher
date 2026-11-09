@@ -1,0 +1,1 @@
+{"text":"CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT\nBEGIN\n  SET N = N - 1;\n  RETURN (\n      # Write your MySQL query statement below.\n      select distinct Salary from Employee order by Salary desc limit 1 offset N\n  );\nEND","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode177-nth-highest-salary_mysql.sql"}

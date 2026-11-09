@@ -1,0 +1,1 @@
+{"text":"function canPermutePalindrome(s: string): boolean {\n    const vis = new Set<string>();\n    for (const c of s) {\n        if (vis.has(c)) {\n            vis.delete(c);\n        } else {\n            vis.add(c);\n        }\n    }\n    return vis.size < 2;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.04.Palindrome Permutation/Solution2.ts"}

@@ -1,0 +1,1 @@
+{"text":"func replaceSpace(s string) string {\n\tans := strings.Builder{}\n\tfor _, c := range s {\n\t\tif c == ' ' {\n\t\t\tans.WriteString(\"%20\")\n\t\t} else {\n\t\t\tans.WriteRune(c)\n\t\t}\n\t}\n\treturn ans.String()\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题05. 替换空格/Solution2.go"}

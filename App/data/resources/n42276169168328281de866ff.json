@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def reverseWords(self, s: str) -> str:\n        s = s.strip().split(\" \")\n\n        s = [word for word in s if word!=\"\"]        \n        s.reverse()\n        return \" \".join(s)\n        ","source":"New folder (2)/LeetCode-75-main/LeetCode-75-main/String and Arrays/6)Reverse Words in a String.py"}

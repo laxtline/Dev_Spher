@@ -1,0 +1,1 @@
+{"text":"# Write your MySQL query statement below\nselect e1.Name as Employee from Employee e1, Employee e2\nwhere e1.ManagerId = e2.Id and e1.Salary > e2.Salary","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode181-employees-earning-more-than-their-managers_solution1.sql"}

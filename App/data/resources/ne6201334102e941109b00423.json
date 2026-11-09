@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int missingNumber(vector<int>& nums) {\n        int ans = 0;\n        for (int i = 1; i <= nums.size(); ++i) {\n            ans ^= i ^ nums[i - 1];\n        }\n        return ans;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.04.Missing Number/Solution3.cpp"}

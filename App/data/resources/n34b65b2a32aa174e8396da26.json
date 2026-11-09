@@ -1,0 +1,1 @@
+{"text":"func missingNumber(nums []int) (ans int) {\n\tfor i, x := range nums {\n\t\tans ^= (i + 1) ^ x\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.04.Missing Number/Solution3.go"}

@@ -1,0 +1,1 @@
+{"text":"function countBits(n: number): number[] {\n    const f: number[] = Array(n + 1).fill(0);\n    for (let i = 1; i <= n; ++i) {\n        f[i] = f[i & (i - 1)] + 1;\n    }\n    return f;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 003. 前 n 个数字二进制中 1 的个数/Solution.ts"}

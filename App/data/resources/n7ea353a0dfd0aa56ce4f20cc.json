@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int leastMinutes(int n) {\n        int ans = 1;\n        for (int speed = 1; speed < n; speed <<= 1) {\n            ++ans;\n        }\n        return ans;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcs/LCS 01. 下载插件/Solution.cpp"}

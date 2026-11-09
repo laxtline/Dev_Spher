@@ -1,0 +1,1 @@
+{"text":"public class Solution {\n    public int[] PrintNumbers(int n) {\n        List<int> ans = new List<int>();\n        for (int i = 0; i < Math.Pow(10, n); i++) {\n            ans.Add(i);\n        }\n        return ans.ToArray();\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题17. 打印从1到最大的n位数/Solution.cs"}

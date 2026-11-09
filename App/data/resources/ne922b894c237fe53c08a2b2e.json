@@ -1,0 +1,1 @@
+{"text":"func canPermutePalindrome(s string) bool {\n\tcnt := map[rune]int{}\n\tfor _, c := range s {\n\t\tcnt[c]++\n\t}\n\tsum := 0\n\tfor _, v := range cnt {\n\t\tsum += v & 1\n\t}\n\treturn sum < 2\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.04.Palindrome Permutation/Solution.go"}

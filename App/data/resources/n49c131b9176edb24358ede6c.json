@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def missingNumber(self, nums: List[int]) -> int:\n        return sum(range(len(nums) + 1)) - sum(nums)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.04.Missing Number/Solution2.py"}

@@ -1,0 +1,1 @@
+{"text":"/**\n * Definition for singly-linked list.\n * type ListNode struct {\n *     Val int\n *     Next *ListNode\n * }\n */\nfunc deleteNode(node *ListNode) {\n\tnode.Val = node.Next.Val\n\tnode.Next = node.Next.Next\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/02.03.Delete Middle Node/Solution.go"}

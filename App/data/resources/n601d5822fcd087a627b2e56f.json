@@ -1,0 +1,1 @@
+{"text":"# 620. Not Boring Movies\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect * from Cinema where id % 2 = 1 and description != \"boring\" order by rating desc;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/620.md"}

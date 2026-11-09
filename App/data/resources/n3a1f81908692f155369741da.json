@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {number[]} nums\n * @return {string}\n */\nvar minNumber = function (nums) {\n    nums.sort((a, b) => {\n        const x = a + '' + b;\n        const y = b + '' + a;\n        return x < y ? -1 : 1;\n    });\n    return nums.join('');\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题45. 把数组排成最小的数/Solution.js"}

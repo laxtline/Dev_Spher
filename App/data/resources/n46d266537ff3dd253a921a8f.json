@@ -1,0 +1,1 @@
+{"text":"func numWays(n int, relation [][]int, k int) int {\n\tf := make([]int, n)\n\tf[0] = 1\n\tfor ; k > 0; k-- {\n\t\tg := make([]int, n)\n\t\tfor _, r := range relation {\n\t\t\ta, b := r[0], r[1]\n\t\t\tg[b] += f[a]\n\t\t}\n\t\tf = g\n\t}\n\treturn f[n-1]\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 07. 传递信息/Solution2.go"}

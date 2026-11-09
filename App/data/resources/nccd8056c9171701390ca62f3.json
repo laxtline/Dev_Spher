@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def findRepeatNumber(self, nums: List[int]) -> int:\n        for a, b in pairwise(sorted(nums)):\n            if a == b:\n                return a\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题03. 数组中重复的数字/Solution.py"}

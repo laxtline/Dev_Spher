@@ -1,0 +1,1 @@
+{"text":"func insertBits(N int, M int, i int, j int) int {\n\tfor k := i; k <= j; k++ {\n\t\tN &= ^(1 << k)\n\t}\n\treturn N | M<<i\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.01.Insert Into Bits/Solution.go"}

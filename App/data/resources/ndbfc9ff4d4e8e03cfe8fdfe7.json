@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int minCount(vector<int>& coins) {\n        int ans = 0;\n        for (int x : coins) {\n            ans += (x + 1) >> 1;\n        }\n        return ans;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 06. 拿硬币/Solution.cpp"}

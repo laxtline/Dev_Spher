@@ -1,0 +1,1 @@
+{"text":"func numSubarrayProductLessThanK(nums []int, k int) int {\n\ts := 1\n\tans, i := 0, 0\n\tfor j, x := range nums {\n\t\ts *= x\n\t\tfor i <= j && s >= k {\n\t\t\ts /= nums[i]\n\t\t\ti++\n\t\t}\n\t\tans += j - i + 1\n\t}\n\treturn ans\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 009. 乘积小于 K 的子数组/Solution.go"}

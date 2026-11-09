@@ -1,0 +1,1 @@
+{"text":"func convertInteger(A int, B int) int {\n\treturn bits.OnesCount32(uint32(A ^ B))\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.06.Convert Integer/Solution.go"}

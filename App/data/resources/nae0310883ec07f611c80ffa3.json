@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def numWays(self, n: int) -> int:\n        a = b = 1\n        for _ in range(n):\n            a, b = b, (a + b) % 1000000007\n        return a\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题10- II. 青蛙跳台阶问题/Solution.py"}

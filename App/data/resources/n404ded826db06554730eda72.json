@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int convertInteger(int A, int B) {\n        unsigned int c = A ^ B;\n        return __builtin_popcount(c);\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.06.Convert Integer/Solution.cpp"}

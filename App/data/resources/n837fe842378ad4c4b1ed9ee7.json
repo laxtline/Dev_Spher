@@ -1,0 +1,1 @@
+{"text":"func waysToChange(n int) int {\n\tconst mod int = 1e9 + 7\n\tcoins := []int{25, 10, 5, 1}\n\tf := make([]int, n+1)\n\tf[0] = 1\n\tfor _, c := range coins {\n\t\tfor j := c; j <= n; j++ {\n\t\t\tf[j] = (f[j] + f[j-c]) % mod\n\t\t}\n\t}\n\treturn f[n]\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.11.Coin/Solution2.go"}

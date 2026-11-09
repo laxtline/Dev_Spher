@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn sum_nums(mut n: i32) -> i32 {\n        n != 0\n            && (\n                {\n                    n += Solution::sum_nums(n - 1);\n                },\n                true,\n            )\n                .1;\n        n\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题64. 求1+2+…+n/Solution.rs"}

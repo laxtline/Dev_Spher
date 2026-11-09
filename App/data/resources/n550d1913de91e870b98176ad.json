@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def isSubsequence(self, s: str, t: str) -> bool:\n        p1 = 0\n        p2 = 0\n\n        while p1 < len(s) and p2 < len(t):\n            if s[p1] == t[p2]:\n                p1+=1\n            \n            p2+=1\n        \n        return p1 == len(s)\n","source":"New folder (2)/LeetCode-75-main/LeetCode-75-main/Two Pointers/11) Is Subsequence.py"}

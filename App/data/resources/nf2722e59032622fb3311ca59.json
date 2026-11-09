@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn missing_number(mut nums: Vec<i32>) -> i32 {\n        nums.sort();\n        let n = nums.len() as i32;\n        for i in 0..n {\n            if i != nums[i as usize] {\n                return i;\n            }\n        }\n        n\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.04.Missing Number/Solution.rs"}

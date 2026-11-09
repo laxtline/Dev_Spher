@@ -1,0 +1,1 @@
+{"text":"func hammingWeight(n uint32) (ans int) {\n\tfor n != 0 {\n\t\tn -= n & -n\n\t\tans++\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题15. 二进制中1的个数/Solution2.go"}

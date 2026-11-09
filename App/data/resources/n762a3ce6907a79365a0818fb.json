@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:\n        for row in matrix:\n            j = bisect_left(row, target)\n            if j < len(matrix[0]) and row[j] == target:\n                return True\n        return False\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题04. 二维数组中的查找/Solution.py"}

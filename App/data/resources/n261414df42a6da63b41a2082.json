@@ -1,0 +1,1 @@
+{"text":"func waysToStep(n int) int {\n\tconst mod int = 1e9 + 7\n\ta, b, c := 1, 2, 4\n\tfor i := 1; i < n; i++ {\n\t\ta, b, c = b, c, (a+b+c)%mod\n\t}\n\treturn a\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.01.Three Steps Problem/Solution.go"}

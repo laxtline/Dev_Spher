@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func swapNumbers(_ numbers: [Int]) -> [Int] {\n        var numbers = numbers\n        numbers[0] ^= numbers[1]\n        numbers[1] ^= numbers[0]\n        numbers[0] ^= numbers[1]\n        return numbers\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.01.Swap Numbers/Solution.swift"}

@@ -1,0 +1,1 @@
+{"text":"module.exports = { extends: ['@commitlint/config-conventional'] };\n","source":"New folder (2)/leetcode-main/leetcode-main/commitlint.config.js"}

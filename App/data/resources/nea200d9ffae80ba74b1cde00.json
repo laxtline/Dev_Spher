@@ -1,0 +1,1 @@
+{"text":"func minArray(numbers []int) int {\n\tl, r := 0, len(numbers)-1\n\tfor l < r {\n\t\tmid := (l + r) >> 1\n\t\tif numbers[mid] > numbers[r] {\n\t\t\tl = mid + 1\n\t\t} else if numbers[mid] < numbers[r] {\n\t\t\tr = mid\n\t\t} else {\n\t\t\tr--\n\t\t}\n\t}\n\treturn numbers[l]\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题11. 旋转数组的最小数字/Solution.go"}

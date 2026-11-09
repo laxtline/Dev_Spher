@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {string} S\n * @param {number} length\n * @return {string}\n */\nvar replaceSpaces = function (S, length) {\n    return encodeURI(S.substring(0, length));\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.03.String to URL/Solution.js"}

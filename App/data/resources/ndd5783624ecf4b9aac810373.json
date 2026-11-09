@@ -1,0 +1,1 @@
+{"text":"func reverseBits(num int) (ans int) {\n\tvar cnt, j int\n\tfor i := 0; i < 32; i++ {\n\t\tcnt += num>>i&1 ^ 1\n\t\tfor cnt > 1 {\n\t\t\tcnt -= num>>j&1 ^ 1\n\t\t\tj++\n\t\t}\n\t\tans = max(ans, i-j+1)\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.03.Reverse Bits/Solution.go"}

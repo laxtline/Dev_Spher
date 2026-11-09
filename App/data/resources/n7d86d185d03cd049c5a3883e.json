@@ -1,0 +1,1 @@
+{"text":"# Write your MySQL query statement below\nSELECT class\nFROM courses\nGROUP BY class\nHAVING count(distinct(student)) >= 5;","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode596-classes-more-than-5-students_mysql.sql"}

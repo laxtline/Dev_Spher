@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func game(_ guess: [Int], _ answer: [Int]) -> Int {\n        var correctGuesses = 0\n        for i in 0..<3 {\n            if guess[i] == answer[i] {\n                correctGuesses += 1\n            }\n        }\n        return correctGuesses\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 01. 猜数字/Solution.swift"}

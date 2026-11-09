@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int insertBits(int N, int M, int i, int j) {\n        for (int k = i; k <= j; ++k) {\n            N &= ~(1 << k);\n        }\n        return N | M << i;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.01.Insert Into Bits/Solution.java"}

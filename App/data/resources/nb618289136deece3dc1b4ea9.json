@@ -1,0 +1,1 @@
+{"text":"func sumNums(n int) int {\n\ts := 0\n\tvar sum func(int) bool\n\tsum = func(n int) bool {\n\t\ts += n\n\t\treturn n > 0 && sum(n-1)\n\t}\n\tsum(n)\n\treturn s\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题64. 求1+2+…+n/Solution.go"}

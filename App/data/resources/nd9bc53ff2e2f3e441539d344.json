@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func getLeastNumbers(_ arr: [Int], _ k: Int) -> [Int] {\n        let sortedArr = arr.sorted()\n        return Array(sortedArr.prefix(k))\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题40. 最小的k个数/Solution.swift"}

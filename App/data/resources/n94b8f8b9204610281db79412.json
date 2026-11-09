@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def convertInteger(self, A: int, B: int) -> int:\n        A &= 0xFFFFFFFF\n        B &= 0xFFFFFFFF\n        return (A ^ B).bit_count()\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.06.Convert Integer/Solution.py"}

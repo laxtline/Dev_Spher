@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {string} s\n * @return {string}\n */\nvar replaceSpace = function (s) {\n    return s.split(' ').join('%20');\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题05. 替换空格/Solution.js"}

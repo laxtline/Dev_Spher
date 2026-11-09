@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def minCostClimbingStairs(self, cost: List[int]) -> int:\n        a = b = 0\n        for i in range(1, len(cost)):\n            a, b = b, min(a + cost[i - 1], b + cost[i])\n        return b\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 088. 爬楼梯的最少成本/Solution2.py"}

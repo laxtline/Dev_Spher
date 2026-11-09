@@ -1,0 +1,1 @@
+{"text":"# Write your MySQL query statement below\nUPDATE salary\nset \n    sex = CASE \n    when sex= 'm' then 'f'\n    else 'm' \n    end;","source":"New folder (2)/leetcode-ac-master/leetcode-ac-master/cpp-leetcode/leetcode627-swap-salary_mysql1.sql"}

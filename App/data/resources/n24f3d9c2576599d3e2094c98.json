@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int search(vector<int>& nums, int target) {\n        auto l = lower_bound(nums.begin(), nums.end(), target);\n        auto r = upper_bound(nums.begin(), nums.end(), target);\n        return r - l;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题53 - I. 在排序数组中查找数字 I/Solution.cpp"}

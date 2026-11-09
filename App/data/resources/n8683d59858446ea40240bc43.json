@@ -1,0 +1,1 @@
+{"text":"func translateNum(num int) int {\n\ts := strconv.Itoa(num)\n\tn := len(s)\n\ta, b := 1, 1\n\tfor i := 1; i < n; i++ {\n\t\tc := b\n\t\tif s[i-1] == '1' || (s[i-1] == '2' && s[i] < '6') {\n\t\t\tc += a\n\t\t}\n\t\ta, b = b, c\n\t}\n\treturn b\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题46. 把数字翻译成字符串/Solution2.go"}

@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func convertInteger(_ A: Int, _ B: Int) -> Int {\n        return (Int32(A) ^ Int32(B)).nonzeroBitCount\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/05.06.Convert Integer/Solution.swift"}

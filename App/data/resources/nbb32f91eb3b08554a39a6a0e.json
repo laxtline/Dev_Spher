@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:\n        arr.sort()\n        return arr[:k]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题40. 最小的k个数/Solution.py"}

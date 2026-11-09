@@ -1,0 +1,1 @@
+{"text":"func isFlipedString(s1 string, s2 string) bool {\n\treturn len(s1) == len(s2) && strings.Contains(s1+s1, s2)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.09.String Rotation/Solution.go"}

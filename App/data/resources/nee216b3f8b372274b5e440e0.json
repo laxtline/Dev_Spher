@@ -1,0 +1,1 @@
+{"text":"Given a binary search tree and a node in it, find the in-order successor of that node in the BST.\n\nNote: If the given node has no in-order successor in the tree, return null.\n\nHide Company Tags Microsoft\nShow Tags\nShow Similar Problems\n\n","source":"New folder (2)/leetcode-solutions-master/leetcode-solutions-master/285_inorder_successor_in_BST/problem.txt"}

@@ -1,0 +1,1 @@
+{"text":"func fraction(cont []int) []int {\n\tvar dfs func(i int) []int\n\tdfs = func(i int) []int {\n\t\tif i == len(cont)-1 {\n\t\t\treturn []int{cont[i], 1}\n\t\t}\n\t\tans := dfs(i + 1)\n\t\ta, b := ans[0], ans[1]\n\t\treturn []int{a*cont[i] + b, a}\n\t}\n\treturn dfs(0)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 02. 分式化简/Solution.go"}

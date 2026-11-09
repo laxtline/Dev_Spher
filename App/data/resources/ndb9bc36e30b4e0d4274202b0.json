@@ -1,0 +1,1 @@
+{"text":"# 178. Rank Scores\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect score, (dense_rank() over (order by score desc)) as \"rank\" from Scores;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/178.md"}

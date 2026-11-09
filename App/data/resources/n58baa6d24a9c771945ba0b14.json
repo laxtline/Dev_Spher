@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def calculate(self, s: str) -> int:\n        x, y = 1, 0\n        for c in s:\n            if c == 'A':\n                x = x * 2 + y\n            else:\n                y = y * 2 + x\n        return x + y\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 17. 速算机器人/Solution.py"}

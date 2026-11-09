@@ -1,0 +1,1 @@
+{"text":"# 367. Valid Perfect Square\n\n## Solution 1 (time O(1), space O(1))\n\n```python\nclass Solution(object):\n    def isPerfectSquare(self, num):\n        \"\"\"\n        :type num: int\n        :rtype: bool\n        \"\"\"\n        return float.is_integer(sqrt(num))\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Python/367.md"}

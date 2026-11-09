@@ -1,0 +1,1 @@
+{"text":"public class Solution {\n    public int[] GetLeastNumbers(int[] arr, int k) {\n        Array.Sort(arr);\n        return arr[..k];\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题40. 最小的k个数/Solution.cs"}

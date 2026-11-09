@@ -1,0 +1,1 @@
+{"text":"function giveGem(gem: number[], operations: number[][]): number {\n    for (const [x, y] of operations) {\n        const v = gem[x] >> 1;\n        gem[y] += v;\n        gem[x] -= v;\n    }\n    return Math.max(...gem) - Math.min(...gem);\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 50. 宝石补给/Solution.ts"}

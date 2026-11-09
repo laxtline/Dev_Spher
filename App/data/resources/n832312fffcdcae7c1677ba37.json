@@ -1,0 +1,1 @@
+{"text":"# 151. Reverse Words in a String\n\n## Solution 1 (time O(n), space O(1))\n\n```python\nclass Solution(object):\n    def reverseWords(self, s):\n        \"\"\"\n        :type s: str\n        :rtype: str\n        \"\"\"\n        return \" \".join(s.split()[::-1])\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Python/151.md"}

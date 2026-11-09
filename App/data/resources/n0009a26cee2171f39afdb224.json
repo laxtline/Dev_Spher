@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {string} s1\n * @param {string} s2\n * @return {boolean}\n */\nvar CheckPermutation = function (s1, s2) {\n    return [...s1].sort().join('') === [...s2].sort().join('');\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.02.Check Permutation/Solution2.js"}

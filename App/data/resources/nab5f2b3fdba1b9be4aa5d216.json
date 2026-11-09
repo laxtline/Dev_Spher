@@ -1,0 +1,1 @@
+{"text":"func mySqrt(x int) int {\n\tleft, right := 0, x\n\tfor left < right {\n\t\tmid := left + (right-left+1)>>1\n\t\tif mid <= x/mid {\n\t\t\tleft = mid\n\t\t} else {\n\t\t\tright = mid - 1\n\t\t}\n\t}\n\treturn left\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 072. 求平方根/Solution.go"}

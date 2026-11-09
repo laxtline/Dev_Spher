@@ -1,0 +1,1 @@
+{"text":"function trailingZeroes(n: number): number {\n    let ans = 0;\n    while (n) {\n        n = Math.floor(n / 5);\n        ans += n;\n    }\n    return ans;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.05.Factorial Zeros/Solution.ts"}

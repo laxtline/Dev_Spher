@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int[] swapNumbers(int[] numbers) {\n        numbers[0] ^= numbers[1];\n        numbers[1] ^= numbers[0];\n        numbers[0] ^= numbers[1];\n        return numbers;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.01.Swap Numbers/Solution.java"}

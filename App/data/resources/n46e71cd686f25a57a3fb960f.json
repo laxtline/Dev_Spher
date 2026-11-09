@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def masterMind(self, solution: str, guess: str) -> List[int]:\n        x = sum(a == b for a, b in zip(solution, guess))\n        y = sum((Counter(solution) & Counter(guess)).values())\n        return [x, y - x]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.15.Master Mind/Solution.py"}

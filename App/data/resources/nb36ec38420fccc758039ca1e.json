@@ -1,0 +1,1 @@
+{"text":"# [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)\n\n因为每次只能爬1级或2级，所以爬到第n阶的方法数目dp[n]等于爬到第n-1和第n-2阶的方法数总和。这是一个动态规划问题，也是一个斐波那契数列。\n\n## 直接递归\n\n## 直接DP\n\n## 优化DP\n\n## 通项公式\n","source":"New folder (2)/leetcode-lintcode-master/leetcode-lintcode-master/leetcode/70.climbing_stairs/README.md"}

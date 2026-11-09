@@ -1,0 +1,1 @@
+{"text":"# 292. Nim Game\n\n## Solution 1 (O(1))\n\n```python\nclass Solution(object):\n    def canWinNim(self, n):\n        \"\"\"\n        :type n: int\n        :rtype: bool\n        \"\"\"\n        return n % 4 != 0\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Python/292.md"}

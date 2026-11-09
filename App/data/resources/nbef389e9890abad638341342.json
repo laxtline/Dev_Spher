@@ -1,0 +1,1 @@
+{"text":"function expectNumber(scores: number[]): number {\n    const s: Set<number> = new Set<number>(scores);\n    return s.size;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 11. 期望个数统计/Solution.ts"}

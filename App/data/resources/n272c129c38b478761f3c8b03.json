@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    vector<int> smallestK(vector<int>& arr, int k) {\n        sort(arr.begin(), arr.end());\n        vector<int> ans(k);\n        for (int i = 0; i < k; ++i) {\n            ans[i] = arr[i];\n        }\n        return ans;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcci/17.14.Smallest K/Solution.cpp"}

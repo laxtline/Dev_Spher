@@ -1,0 +1,1 @@
+{"text":"# 196. Delete Duplicate Emails\n\n## Solution 1\n\n```\n# Please write a DELETE statement and DO NOT write a SELECT statement.\n# Write your MySQL query statement below\ndelete a from Person a, Person b where a.email = b.email and a.id > b.id;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/196.md"}

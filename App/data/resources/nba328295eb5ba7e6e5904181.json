@@ -1,0 +1,1 @@
+{"text":"function maxSubArray(nums: number[]): number {\n    let [ans, f] = [-Infinity, -Infinity];\n    for (const x of nums) {\n        f = Math.max(f, 0) + x;\n        ans = Math.max(ans, f);\n    }\n    return ans;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.17.Contiguous Sequence/Solution.ts"}

@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {number} n\n * @param {number} m\n * @return {number}\n */\nvar lastRemaining = function (n, m) {\n    let f = 0;\n    for (let i = 2; i <= n; ++i) {\n        f = (f + m) % i;\n    }\n    return f;\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题62. 圆圈中最后剩下的数字/Solution.js"}

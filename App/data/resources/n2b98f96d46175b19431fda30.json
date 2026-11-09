@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def minNumber(self, nums: List[int]) -> str:\n        def cmp(a, b):\n            x, y = a + b, b + a\n            return -1 if x < y else 1\n\n        ans = [str(x) for x in nums]\n        ans.sort(key=cmp_to_key(cmp))\n        return \"\".join(ans)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题45. 把数组排成最小的数/Solution.py"}

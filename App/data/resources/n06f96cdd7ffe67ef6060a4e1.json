@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxSubArray = function (nums) {\n    let ans = -1e10;\n    let f = 0;\n    for (const x of nums) {\n        f = Math.max(f, 0) + x;\n        ans = Math.max(ans, f);\n    }\n    return ans;\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题42. 连续子数组的最大和/Solution.js"}

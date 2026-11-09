@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public boolean CheckPermutation(String s1, String s2) {\n        char[] cs1 = s1.toCharArray();\n        char[] cs2 = s2.toCharArray();\n        Arrays.sort(cs1);\n        Arrays.sort(cs2);\n        return Arrays.equals(cs1, cs2);\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.02.Check Permutation/Solution2.java"}

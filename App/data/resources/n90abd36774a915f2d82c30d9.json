@@ -1,0 +1,1 @@
+{"text":"Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] (si < ei), find the minimum number of conference rooms required.\n\nFor example,\nGiven [[0, 30],[5, 10],[15, 20]],\nreturn 2.\n","source":"New folder (2)/leetcode-solutions-master/leetcode-solutions-master/253_meeting_room_ii/problem.txt"}

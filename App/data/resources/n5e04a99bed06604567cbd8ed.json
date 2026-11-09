@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def replaceSpace(self, s: str) -> str:\n        return s.replace(' ', '%20')\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题05. 替换空格/Solution.py"}

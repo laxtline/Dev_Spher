@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int numWays(int n) {\n        int a = 1, b = 1;\n        while (n--) {\n            int c = (a + b) % 1000000007;\n            a = b;\n            b = c;\n        }\n        return a;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题10- II. 青蛙跳台阶问题/Solution.cpp"}

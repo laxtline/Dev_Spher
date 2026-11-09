@@ -1,0 +1,1 @@
+{"text":"func peakIndexInMountainArray(arr []int) int {\n\tleft, right := 1, len(arr)-2\n\tfor left < right {\n\t\tmid := (left + right) >> 1\n\t\tif arr[mid] > arr[mid+1] {\n\t\t\tright = mid\n\t\t} else {\n\t\t\tleft = mid + 1\n\t\t}\n\t}\n\treturn left\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 069. 山峰数组的顶部/Solution.go"}

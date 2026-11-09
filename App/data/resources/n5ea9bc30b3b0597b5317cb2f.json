@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:\n        pos = {x: i for i, x in enumerate(arr2)}\n        return sorted(arr1, key=lambda x: pos.get(x, 1000 + x))\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 075. 数组相对排序/Solution.py"}

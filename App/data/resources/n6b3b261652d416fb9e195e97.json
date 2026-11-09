@@ -1,0 +1,1 @@
+{"text":"func majorityElement(nums []int) int {\n\tcnt, m := 0, 0\n\tfor _, v := range nums {\n\t\tif cnt == 0 {\n\t\t\tm, cnt = v, 1\n\t\t} else {\n\t\t\tif m == v {\n\t\t\t\tcnt++\n\t\t\t} else {\n\t\t\t\tcnt--\n\t\t\t}\n\t\t}\n\t}\n\treturn m\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题39. 数组中出现次数超过一半的数字/Solution.go"}

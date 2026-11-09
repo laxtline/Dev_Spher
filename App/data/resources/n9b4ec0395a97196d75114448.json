@@ -1,0 +1,1 @@
+{"text":"# 2235. Add Two Integers\n\n## Solution 1 (time O(1), space O(1))\n\n```python\nclass Solution(object):\n    def sum(self, num1, num2):\n        \"\"\"\n        :type num1: int\n        :type num2: int\n        :rtype: int\n        \"\"\"\n        return num1 + num2\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Python/2235.md"}

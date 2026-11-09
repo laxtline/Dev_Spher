@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn check_permutation(s1: String, s2: String) -> bool {\n        let mut s1: Vec<char> = s1.chars().collect();\n        let mut s2: Vec<char> = s2.chars().collect();\n        s1.sort();\n        s2.sort();\n        s1 == s2\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.02.Check Permutation/Solution2.rs"}

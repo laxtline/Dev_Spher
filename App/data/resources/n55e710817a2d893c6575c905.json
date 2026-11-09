@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    func add(_ a: Int, _ b: Int) -> Int {\n        var a = a\n        var b = b\n        while b != 0 {\n            let c = (a & b) << 1\n            a ^= b\n            b = c\n        }\n        return a\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题65. 不用加减乘除做加法/Solution.swift"}

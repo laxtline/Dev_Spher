@@ -1,0 +1,1 @@
+{"text":"# 1148. Article Views I\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect distinct(author_id) as id from Views where author_id = viewer_id order by author_id;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/1148.md"}

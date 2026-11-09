@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def waysToChange(self, n: int) -> int:\n        mod = 10**9 + 7\n        coins = [25, 10, 5, 1]\n        f = [1] + [0] * n\n        for c in coins:\n            for j in range(c, n + 1):\n                f[j] = (f[j] + f[j - c]) % mod\n        return f[n]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.11.Coin/Solution2.py"}

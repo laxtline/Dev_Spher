@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn max_sub_array(mut nums: Vec<i32>) -> i32 {\n        let mut res = nums[0];\n        for i in 1..nums.len() {\n            nums[i] = nums[i].max(nums[i - 1] + nums[i]);\n            res = res.max(nums[i]);\n        }\n        res\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题42. 连续子数组的最大和/Solution.rs"}

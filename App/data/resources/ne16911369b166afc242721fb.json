@@ -1,0 +1,1 @@
+{"text":"func subarraySum(nums []int, k int) (ans int) {\n\tcnt := map[int]int{0: 1}\n\ts := 0\n\tfor _, x := range nums {\n\t\ts += x\n\t\tans += cnt[s-k]\n\t\tcnt[s]++\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 010. 和为 k 的子数组/Solution.go"}

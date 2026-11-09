@@ -1,0 +1,1 @@
+{"text":"func merge(A []int, m int, B []int, n int) {\n\ti, j := m-1, n-1\n\tfor k := len(A) - 1; k >= 0; k-- {\n\t\tif j < 0 || (i >= 0 && A[i] > B[j]) {\n\t\t\tA[k] = A[i]\n\t\t\ti--\n\t\t} else {\n\t\t\tA[k] = B[j]\n\t\t\tj--\n\t\t}\n\t}\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/10.01.Sorted Merge/Solution.go"}

@@ -1,0 +1,1 @@
+{"text":"import dotenv from \"dotenv\";\n\ndotenv.config();\n\n// Environment Variables\nexport const GITHUB_TOKEN = process.env.GITHUB_TOKEN;","source":"New folder (2)/greenj-readme-statistics-main/greenj-readme-statistics-main/src/github/github_environment.ts"}

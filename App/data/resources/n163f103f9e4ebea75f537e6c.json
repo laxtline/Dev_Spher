@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def compressString(self, S: str) -> str:\n        t = \"\".join(a + str(len(list(b))) for a, b in groupby(S))\n        return min(S, t, key=len)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.06.Compress String/Solution.py"}

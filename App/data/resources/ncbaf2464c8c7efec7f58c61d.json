@@ -1,0 +1,1 @@
+{"text":"# 586. Customer Placing the Largest Number of Orders\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect customer_number from Orders group by customer_number order by count(*) desc limit 1;\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/586.md"}

@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def rob(self, nums: List[int]) -> int:\n        f = g = 0\n        for x in nums:\n            f, g = max(f, g), f + x\n        return max(f, g)\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 089. 房屋偷盗/Solution2.py"}

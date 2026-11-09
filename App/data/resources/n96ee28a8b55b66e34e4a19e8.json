@@ -1,0 +1,1 @@
+{"text":"function canPermutePalindrome(s: string): boolean {\n    const cnt: Record<string, number> = {};\n    for (const c of s) {\n        cnt[c] = (cnt[c] || 0) + 1;\n    }\n    return Object.values(cnt).filter(v => v % 2 === 1).length < 2;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.04.Palindrome Permutation/Solution.ts"}

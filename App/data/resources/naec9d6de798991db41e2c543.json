@@ -1,0 +1,1 @@
+{"text":"function reverseWords(s: string): string {\n    return s.trim().split(/\\s+/).reverse().join(' ');\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题58 - I. 翻转单词顺序/Solution2.ts"}

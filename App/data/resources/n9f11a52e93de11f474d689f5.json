@@ -1,0 +1,1 @@
+{"text":"Rotating a matrix is a combination of 2 transformations:\n1. Reverse the rows.\n2. Diagnal flip. (Swap a[i][j] and a[j][i]) ","source":"New folder (2)/leetcode-solutions-master/leetcode-solutions-master/048_rotate_image/README.md"}

@@ -1,0 +1,1 @@
+{"text":"func findRepeatNumber(nums []int) int {\n\tfor i := 0; ; i++ {\n\t\tfor nums[i] != i {\n\t\t\tj := nums[i]\n\t\t\tif nums[j] == j {\n\t\t\t\treturn j\n\t\t\t}\n\t\t\tnums[i], nums[j] = nums[j], nums[i]\n\t\t}\n\t}\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题03. 数组中重复的数字/Solution3.go"}

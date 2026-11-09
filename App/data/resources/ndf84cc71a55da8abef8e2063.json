@@ -1,0 +1,1 @@
+{"text":"func rob(nums []int) int {\n\tf, g := 0, 0\n\tfor _, x := range nums {\n\t\tf, g = max(f, g), f+x\n\t}\n\treturn max(f, g)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof2/剑指 Offer II 089. 房屋偷盗/Solution2.go"}

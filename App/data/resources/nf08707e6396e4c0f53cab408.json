@@ -1,0 +1,1 @@
+{"text":"# 183. Customers Who Never Order\n\n## Solution 1\n\n```\n# Write your MySQL query statement below\nselect name as Customers from Customers where id not in (select distinct customerId from Orders);\n```\n","source":"New folder (2)/LeetCode-solutions-master (1)/LeetCode-solutions-master/Database/183.md"}

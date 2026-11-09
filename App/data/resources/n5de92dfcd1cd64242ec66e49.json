@@ -1,0 +1,1 @@
+{"text":"impl Solution {\n    pub fn replace_spaces(s: String, length: i32) -> String {\n        s[..length as usize].replace(' ', \"%20\")\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/01.03.String to URL/Solution.rs"}

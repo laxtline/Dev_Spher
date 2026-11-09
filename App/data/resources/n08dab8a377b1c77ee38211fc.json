@@ -1,0 +1,1 @@
+{"text":"func lengthOfLongestSubstring(s string) (ans int) {\n\tvis := map[byte]bool{}\n\tj := 0\n\tfor i := range s {\n\t\tfor vis[s[i]] {\n\t\t\tvis[s[j]] = false\n\t\t\tj++\n\t\t}\n\t\tvis[s[i]] = true\n\t\tans = max(ans, i-j+1)\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题48. 最长不含重复字符的子字符串/Solution.go"}

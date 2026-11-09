@@ -1,0 +1,1 @@
+{"text":"function cuttingRope(n: number): number {\n    if (n < 4) {\n        return n - 1;\n    }\n    const m = Math.floor(n / 3);\n    if (n % 3 == 0) {\n        return 3 ** m;\n    }\n    if (n % 3 == 1) {\n        return 3 ** (m - 1) * 4;\n    }\n    return 3 ** m * 2;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题14- I. 剪绳子/Solution2.ts"}

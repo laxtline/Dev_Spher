@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int hammingWeight(uint32_t n) {\n        int ans = 0;\n        while (n) {\n            n -= n & -n;\n            ++ans;\n        }\n        return ans;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题15. 二进制中1的个数/Solution2.cpp"}

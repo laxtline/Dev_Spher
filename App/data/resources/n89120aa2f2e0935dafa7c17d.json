@@ -1,0 +1,1 @@
+{"text":"func reverseWords(s string) string {\n\twords := strings.Fields(s)\n\tfor i, j := 0, len(words)-1; i < j; i, j = i+1, j-1 {\n\t\twords[i], words[j] = words[j], words[i]\n\t}\n\treturn strings.Join(words, \" \")\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题58 - I. 翻转单词顺序/Solution2.go"}

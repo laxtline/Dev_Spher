@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public int fib(int n) {\n        int a = 0, b = 1;\n        while (n-- > 0) {\n            int c = (a + b) % 1000000007;\n            a = b;\n            b = c;\n        }\n        return a;\n    }\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题10- I. 斐波那契数列/Solution.java"}

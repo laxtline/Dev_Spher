@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def waysToStep(self, n: int) -> int:\n        a, b, c = 1, 2, 4\n        mod = 10**9 + 7\n        for _ in range(n - 1):\n            a, b, c = b, c, (a + b + c) % mod\n        return a\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/08.01.Three Steps Problem/Solution.py"}

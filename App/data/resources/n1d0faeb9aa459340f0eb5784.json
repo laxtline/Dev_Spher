@@ -1,0 +1,1 @@
+{"text":"func pairSums(nums []int, target int) (ans [][]int) {\n\tcnt := map[int]int{}\n\tfor _, x := range nums {\n\t\ty := target - x\n\t\tif cnt[y] > 0 {\n\t\t\tcnt[y]--\n\t\t\tans = append(ans, []int{x, y})\n\t\t} else {\n\t\t\tcnt[x]++\n\t\t}\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.24.Pairs With Sum/Solution.go"}

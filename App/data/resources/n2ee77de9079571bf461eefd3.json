@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def wiggleSort(self, nums: List[int]) -> None:\n        nums.sort()\n        for i in range(0, len(nums), 2):\n            nums[i : i + 2] = nums[i : i + 2][::-1]\n","source":"New folder (2)/leetcode-main/leetcode-main/lcci/10.11.Peaks and Valleys/Solution.py"}

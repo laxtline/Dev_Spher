@@ -1,0 +1,1 @@
+{"text":"public class Solution {\n    public int MaxSubArray(int[] nums) {\n        int ans = -1000000000;\n        int f = 0;\n        foreach (int x in nums) {\n            f = Math.Max(f, 0) + x;\n            ans = Math.Max(ans, f);\n        }\n        return ans;\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题42. 连续子数组的最大和/Solution.cs"}

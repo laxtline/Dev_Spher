@@ -1,0 +1,1 @@
+{"text":"func minNumber(nums []int) string {\n\tarr := []string{}\n\tfor _, x := range nums {\n\t\tarr = append(arr, strconv.Itoa(x))\n\t}\n\tsort.Slice(arr, func(i, j int) bool { return arr[i]+arr[j] < arr[j]+arr[i] })\n\treturn strings.Join(arr, \"\")\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题45. 把数组排成最小的数/Solution.go"}

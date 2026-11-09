@@ -1,0 +1,1 @@
+{"text":"func runeReserve(runes []int) (ans int) {\n\tsort.Ints(runes)\n\ti := 0\n\tfor j, x := range runes {\n\t\tif j > 0 && x-runes[j-1] > 1 {\n\t\t\ti = j\n\t\t} else if t := j - i + 1; ans < t {\n\t\t\tans = t\n\t\t}\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 77. 符文储备/Solution.go"}

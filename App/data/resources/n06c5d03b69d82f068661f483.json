@@ -1,0 +1,1 @@
+{"text":"select Name from Customers where id not in (select customerId from Orders)","source":"New folder (2)/leetcode-solutions-master/leetcode-solutions-master/customersNeverOrder.sql"}

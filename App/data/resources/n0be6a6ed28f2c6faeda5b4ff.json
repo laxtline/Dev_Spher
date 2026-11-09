@@ -1,0 +1,1 @@
+{"text":"/**\n * @param {number} n\n * @return {number}\n */\nvar fib = function (n) {\n    let a = 0;\n    let b = 1;\n    while (n--) {\n        [a, b] = [b, (a + b) % (1e9 + 7)];\n    }\n    return a;\n};\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题10- I. 斐波那契数列/Solution.js"}

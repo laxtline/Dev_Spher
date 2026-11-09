@@ -1,0 +1,1 @@
+{"text":"func findRepeatNumber(nums []int) int {\n\tvis := map[int]bool{}\n\tfor i := 0; ; i++ {\n\t\tif vis[nums[i]] {\n\t\t\treturn nums[i]\n\t\t}\n\t\tvis[nums[i]] = true\n\t}\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题03. 数组中重复的数字/Solution2.go"}

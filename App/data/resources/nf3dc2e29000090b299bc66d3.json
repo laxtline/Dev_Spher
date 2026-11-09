@@ -1,0 +1,1 @@
+{"text":"function minCount(coins: number[]): number {\n    let ans = 0;\n    for (const x of coins) {\n        ans += (x + 1) >> 1;\n    }\n    return ans;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 06. 拿硬币/Solution.ts"}

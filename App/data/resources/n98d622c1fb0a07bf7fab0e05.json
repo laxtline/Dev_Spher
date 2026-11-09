@@ -1,0 +1,1 @@
+{"text":"class Solution {\n    public String minNumber(int[] nums) {\n        return Arrays.stream(nums)\n            .mapToObj(String::valueOf)\n            .sorted((a, b) -> (a + b).compareTo(b + a))\n            .collect(Collectors.joining());\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题45. 把数组排成最小的数/Solution.java"}

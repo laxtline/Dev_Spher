@@ -1,0 +1,1 @@
+{"text":"class Solution:\n    def sumNums(self, n: int) -> int:\n        return n and (n + self.sumNums(n - 1))\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题64. 求1+2+…+n/Solution.py"}
