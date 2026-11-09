@@ -1,0 +1,11 @@
+# Verification
+
+- 13 Python integration and merge tests pass: server APIs, accepted/wrong/error/timeout results, shared saving, backup and restore, deduplication, compressed catalog refresh and offline runtime files.
+- 8 JavaScript tests pass: unified index matching, solution deduplication, saved progress preservation, graded exercise links, shared revision routing, browser function execution, PDF level matching and combined topic/search/progress filters.
+- Library audit: 4,097 imported questions, 14,652 resource records and 33,160 solution variants; no broken local records were found.
+- Interactive browser checks cover the unified home, Coding Lab, courses, exams, practice search, question reader and solutions, progress, and deep-link reload. Python, JavaScript and SQLite run using bundled/local engines.
+- The portable archive is CRC-checked. A clean extraction is checked with `install.py --check`, then served on a temporary loopback port to verify its home, catalog, question data, worker and offline runtime assets.
+- Level wise is verified interactively: all three tracks, factorial and coin-change searches, topic filtering, Word Break opening in the shared question reader/editor, and original offline PDF paths. The app exposes 791 / 2,918 / 2,959 matching entries in the three tracks; shared questions intentionally appear in multiple tracks.
+- The Windows x64 installer is extracted into a separate test folder. Its bundled Python 3.14.10 passes installation checks without system Python. The installed executable starts/stops its server on an isolated port, all three PDFs and offline runtime files are served, and a Python Two Sum submission is accepted. Personal data and host-specific import settings are excluded.
+
+The source-only ZIP requires Python 3.10+. The Windows installer and Windows portable ZIP include their own Python runtime. Node.js is only used to run development tests; it is not required by the app. C/C++ and Java require an optional local compiler/JDK. Automatic reference judging is available for the included 22 local function suites, with additional input/output exercises in Practice. Other reference entries support reading, custom runs and self-assessed progress.

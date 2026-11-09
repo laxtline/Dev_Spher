@@ -1,0 +1,16 @@
+__pycache__/
+data/user-state.json
+data/user-state.json.tmp
+server.log
+data/backups/
+data/imported-files.json
+studio-private/
+.github-publish-state.json
+downloads/
+__pycache__/
+*.merge-tmp
+*.log
+import_sources.json
+build/
+dist/
+.venv/
