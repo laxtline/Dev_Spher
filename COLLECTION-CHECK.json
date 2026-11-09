@@ -1,0 +1,18 @@
+{
+  "version": "1.4.0",
+  "entrypoints": {
+    "desktop": "OPEN_APP.cmd",
+    "website": "OPEN_WEBSITE.cmd",
+    "guide": "Start.pdf"
+  },
+  "visibleQuestionsAndTopics": 11748,
+  "canonicalQuestions": 11143,
+  "sourceFiles": 14652,
+  "installer": {
+    "asset": "Pratice-Code-Setup.exe"
+  },
+  "offlineWebsite": {
+    "asset": "Pratice-Code-Offline.zip"
+  },
+  "release": "https://github.com/laxtline/Dev_Spher/releases/tag/v1.4.0"
+}
