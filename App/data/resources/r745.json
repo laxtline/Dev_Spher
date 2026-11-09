@@ -1,0 +1,1 @@
+{"text":"public abstract class Shape\n{\n      public abstract double area(); \n     public abstract double volume();\n    \n}","source":"Cognizant-GenC-Learn-main/JAVA/Applying Object Oriented Concepts/Shape - Area Volume Calculator/Shape.java"}

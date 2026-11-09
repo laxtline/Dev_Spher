@@ -1,0 +1,1 @@
+{"text":"public class Persons{\n    String name;\n    String dob;\n\n    Persons(String name, String dob){\n        this.name = name;\n        this.dob = dob;\n    }\n\n    void getDetails(){\n        System.out.printf(\"Name : %s%nDOB : %s%n\", this.name, this.dob);\n    }\n}\n","source":"Wipro-PJP-main/Topics/OOPS/Inheritance/Persons.java"}

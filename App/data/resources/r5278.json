@@ -1,0 +1,1 @@
+{"text":"public class CLA3{\n    public static void main(String[] args){\n        int a = Integer.parseInt(args[0]);\n        int b = Integer.parseInt(args[1]);\n        System.out.println(\"The sum of \" + a + \" and \" + b + \" is \" + (a+b));\n    }\n}\n","source":"Wipro-PJP-main/Topics/Java-Fundamentals/Language-Basics/CLA3.java"}

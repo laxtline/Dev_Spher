@@ -1,0 +1,1 @@
+{"text":"SELECT A.MIN_DISCOUNT, B.MAX_DISCOUNT\nFROM (\n         SELECT MIN(DISCOUNT_AMOUNT) AS `MIN_DISCOUNT`\n         FROM DISCOUNT_MASTER\n     ) A,\n     (\n         SELECT MAX(DISCOUNT_AMOUNT) AS `MAX_DISCOUNT`\n         FROM DISCOUNT_MASTER\n     ) B;","source":"Cognizant-Early-Engagement-main/SQL Programming/Minimum & Maximum Discount Amount/group3.sql"}

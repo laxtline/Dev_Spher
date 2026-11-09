@@ -1,0 +1,1 @@
+{"text":"package com.cts.engineAnalysis;\n\npublic class DieselEngine extends Engine {\n\n\t// Type your code here\n\tpublic int getPerformance() {\n\n\t\treturn super.getTorque() * super.getRpm() / 63025;\n\t}\n}\n","source":"Cognizant-Early-Engagement-main/Spring Core, Maven/EngineAnalysis/DieselEngine.java"}

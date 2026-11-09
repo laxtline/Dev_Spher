@@ -1,0 +1,1 @@
+{"text":"ALTER TABLE hotel_details\nCHANGE rating hotel_rating INT;","source":"Cognizant-Early-Engagement-main/SQL Programming/Hunger eats - Change the field name/sample.sql"}

@@ -1,0 +1,1 @@
+{"text":"func game(guess []int, answer []int) (ans int) {\n\tfor i, a := range guess {\n\t\tif a == answer[i] {\n\t\t\tans++\n\t\t}\n\t}\n\treturn\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcp/LCP 01. 猜数字/Solution.go"}

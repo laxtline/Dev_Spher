@@ -1,0 +1,1 @@
+{"text":"alter table customers\nmodify column customer_id int ;","source":"Cognizant-GenC-Learn-main/SQL/Hunger eats - change datatype/sample.sql"}

@@ -1,0 +1,1 @@
+{"text":"public interface Insurance {\n    double takeInsurance();\n}\n","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Vehicle-Loan-Insurance - Use Interface/Insurance.java"}

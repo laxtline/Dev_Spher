@@ -1,0 +1,1 @@
+{"text":"// 1 a\n\npackage testPackage;\n\npublic class Foundation {\n\n\t// private\n\tprivate int var1;\n\n\t// default\n\tint var2;\n\n\t// public\n\tpublic int var3;\n\n\t// protected\n\tprotected int var4;\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Packages/src/testPackage/Foundation.java"}

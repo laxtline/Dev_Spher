@@ -1,0 +1,1 @@
+{"text":"nums = list(map(int, input().split()))\nd = {}\nfor i in range(len(nums)):\n    if nums[i] not in d:\n        d[nums[i]] = 1\n    else:\n        d[nums[i]] += 1\nans = 0\nfor i in d.keys():\n    if d[i] == 1:\n        ans+=i\nprint(ans)","source":"TCS-NQT-2024-Coding-Solutions-main/14 May Shift 1/Sum of unique elements/codePy.py"}

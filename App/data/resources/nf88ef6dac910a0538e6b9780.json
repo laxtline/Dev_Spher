@@ -1,0 +1,1 @@
+{"text":"function maxProfit(prices: number[]): number {\n    let res = 0;\n    let min = Infinity;\n    for (const price of prices) {\n        res = Math.max(res, price - min);\n        min = Math.min(min, price);\n    }\n    return res;\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题63. 股票的最大利润/Solution.ts"}

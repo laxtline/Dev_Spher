@@ -1,0 +1,1 @@
+{"text":"str1 = input()\ns = ''\nfor i in range(-1, -(len(str1)+1), -1):\n    s += str1[i]\nif(s == str1):\n    print(1)\nelse:\n    print(0)\nprint(s)\n","source":"Accenture-Coding-Questions-Master/string_palindrome.py"}

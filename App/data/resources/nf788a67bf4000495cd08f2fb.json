@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    string replaceSpace(string s) {\n        string ans;\n        for (char ch : s) {\n            if (ch == ' ')\n                ans += \"%20\";\n            else\n                ans += ch;\n        }\n        return ans;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题05. 替换空格/Solution.cpp"}

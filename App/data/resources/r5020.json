@@ -1,0 +1,1 @@
+{"text":"package com.mile1.exception;\n\npublic class NullNameException extends Exception {\n    @Override\n    public String toString() {\n        return \"NullNameException occurred\";\n    }\n}\n","source":"Wipro-PJP-main/Mini-Projects/Mile1/com/mile1/exception/NullNameException.java"}

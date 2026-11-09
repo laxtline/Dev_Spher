@@ -1,0 +1,1 @@
+{"text":"// Regions on a plane\n\n#include<iostream>\nusing namespace std;\n\nint main()\n{\n    int n;\n    cin>>n;\n\n    cout<<(1+n*(n+1)/2);\n    return 0;\n}","source":"Accenture-Coding-Round-main/Accenture part-1/Prob-5.cpp"}

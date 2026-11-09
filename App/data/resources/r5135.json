@@ -1,0 +1,1 @@
+{"text":"import test.Foundation;\npublic class TestFoundation {\n    public static void main(String[] args) {\n        Foundation fn = new Foundation();\n        fn.var4 = 4;\n        System.out.println(fn.var4);\n    }\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Packages/TestFoundation.java"}

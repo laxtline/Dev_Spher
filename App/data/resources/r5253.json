@@ -1,0 +1,1 @@
+{"text":"import java.util.Arrays;\npublic class Array6 {\n   public static void main(String[] args) {\n    int[] nums = Arrays.stream(args).mapToInt(Integer::parseInt).toArray();\n    Arrays.sort(nums);\n    for (int num : nums)\n        System.out.println(num);\n   }\n}\n","source":"Wipro-PJP-main/Topics/Java-Fundamentals/Arrays/Array6.java"}

@@ -1,0 +1,1 @@
+{"text":"select s.student_name, d.department_name\nfrom student s\n    inner join department d\n    on s.city = \"Coimbatore\"\n        and s.department_id = d.department_id\norder by s.student_name;\n","source":"Cognizant-Early-Engagement-main/SQL Programming/Student and their Department Based on City/joins3.sql"}

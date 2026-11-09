@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"OffersCurrency\" ALTER COLUMN \"value\" SET DATA TYPE DOUBLE PRECISION,\nALTER COLUMN \"baseValue\" SET DATA TYPE DOUBLE PRECISION;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221021233952_change_currency_values_to_float/migration.sql"}

@@ -1,0 +1,1 @@
+{"text":"\npublic class Main {\n\n\tpublic static void main(String[] args) {\n\t\t// TODO Auto-generated method stub\n\t\tVehicle v1 = new Vehicle(\"351\", \"Honda\", \"Luxury\", 150000.00);\n\t\tv1.issueLoan();\n\t\tv1.takeInsurance();\n\n\t}\n\n}\n","source":"Cognizant-GenC-Learn-main/JAVA/Applying Object Oriented Concepts/Vehicle-Loan-Insurance - Use Interface/Main.java"}

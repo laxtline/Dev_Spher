@@ -1,0 +1,1 @@
+{"text":"select car_id, car_name, car_type\nfrom cars\nwhere car_name like \"Maruthi%\"\nand car_type = \"Sedan\"\norder by car_id;","source":"Cognizant-Early-Engagement-main/SQL Programming/Car details based on type and name/query.sql"}

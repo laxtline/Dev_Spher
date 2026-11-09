@@ -1,0 +1,1 @@
+{"text":"import java.time.LocalDate;\n\npublic class DateTime1 {\n    public static void main(String[] args) {\n        LocalDate today = LocalDate.now();\n        System.out.println(\"Today's date : \" + today);\n        System.out.println(\"Date after 10 days : \" + today.plusDays(10));\n    }\n}\n","source":"Wipro-PJP-main/Topics/Java-8-Features/Date-Time-API/DateTime1.java"}

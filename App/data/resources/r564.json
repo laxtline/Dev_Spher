@@ -1,0 +1,1 @@
+{"text":"select concat(customer_id, ' mail id is ', email_id) as customer_mail_info\nfrom customers;","source":"Cognizant-Early-Engagement-main/SQL Programming/Customer mail details/sample.sql"}

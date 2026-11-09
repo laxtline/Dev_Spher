@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"OffersExperience\" ADD COLUMN     \"location\" TEXT;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221020115540_/migration.sql"}

@@ -1,0 +1,1 @@
+{"text":"select rental_id, car_id, customer_id, km_driven\nfrom rentals\nwhere month(pickup_date) = 8\n    and year(pickup_date) = 2019\norder by rental_id;","source":"Cognizant-Early-Engagement-main/SQL Programming/Rental details based on date/query.sql"}

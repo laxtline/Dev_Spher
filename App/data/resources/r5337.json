@@ -1,0 +1,1 @@
+{"text":"select emp_ID, last_name, job_ID, hire_date \"STARTDATE\" from employees;\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Select-Statement/select2.sql"}

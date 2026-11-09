@@ -1,0 +1,1 @@
+{"text":"-- CreateIndex\nCREATE INDEX \"QuestionsQuestion_lastSeenAt_id_idx\" ON \"QuestionsQuestion\"(\"lastSeenAt\", \"id\");\n\n-- CreateIndex\nCREATE INDEX \"QuestionsQuestion_upvotes_id_idx\" ON \"QuestionsQuestion\"(\"upvotes\", \"id\");\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221021155717_add_sorting_index/migration.sql"}

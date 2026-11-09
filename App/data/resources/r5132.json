@@ -1,0 +1,1 @@
+{"text":"package com.automobile;\n\npublic abstract class Vehicle {\n    public abstract String getModelName();\n    public abstract String getRegistrationNumber();\n    public abstract String getOwnerName();\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Packages/com/automobile/Vehicle.java"}

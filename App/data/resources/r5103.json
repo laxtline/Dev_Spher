@@ -1,0 +1,1 @@
+{"text":"public class Piano extends Instrument{\n    void play(){\n        System.out.println(\"Piano is playing tan tan tan tan\");\n    }\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Abstract-Classes/Piano.java"}

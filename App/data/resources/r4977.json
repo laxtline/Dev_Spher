@@ -1,0 +1,1 @@
+{"text":"public class CountOdds{\n    public int countOdds(int input1, int input2, int input3, int  input4, int input5){\n        int [] arr = {input1, input2, input3, input4, input5};\n        int count = 0;\n        for (int num : arr){\n            if (num % 2 != 0) count++;\n        }\n        return count;\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/CountOdds.java"}

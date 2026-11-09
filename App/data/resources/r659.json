@@ -1,0 +1,1 @@
+{"text":"package com.cts.bank.exception;\n\npublic class AccountTransactionException extends Exception {\n\n\tpublic AccountTransactionException() {\n\t\tsuper();\n\t}\n\n\tpublic AccountTransactionException(String message) {\n\t\tsuper(message);\n\t}\n\t\n}\n","source":"Cognizant-Early-Engagement-main/Unit Testing, Code Quality/TestMockDB/AccountTransactionException.java"}

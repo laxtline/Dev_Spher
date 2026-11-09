@@ -1,0 +1,1 @@
+{"text":"delete from my_employee\nwhere first_name like '%man%'\nor last_name like '%man%';\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/DML/dml9.sql"}

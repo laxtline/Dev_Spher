@@ -1,0 +1,1 @@
+{"text":"class Solution {\npublic:\n    int maxSubArray(vector<int>& nums) {\n        int ans = INT_MIN, f = INT_MIN;\n        for (int x : nums) {\n            f = max(f, 0) + x;\n            ans = max(ans, f);\n        }\n        return ans;\n    }\n};","source":"New folder (2)/leetcode-main/leetcode-main/lcci/16.17.Contiguous Sequence/Solution.cpp"}

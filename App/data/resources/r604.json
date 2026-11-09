@@ -1,0 +1,1 @@
+{"text":"SELECT P.PATIENT_ID, P.P_FIRST_NAME, P.P_AGE, A.APP_NUMBER, A.APP_DATE\nFROM PATIENT P, APPOINMENT A\nWHERE P.PATIENT_ID = A.PATIENT_ID\n    AND A.APP_REASON = 'FEVER'\nORDER BY P.PATIENT_ID;","source":"Cognizant-Early-Engagement-main/SQL Programming/Patient Appointment Details based on reason/query.sql"}

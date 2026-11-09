@@ -1,0 +1,1 @@
+{"text":"select hotel_id, hotel_name, hotel_type\nfrom hotel_details\nwhere hotel_id not in (select hotel_id\nfrom orders\nwhere month(order_date) = 5 and year(order_date) = 2019);","source":"Cognizant-Early-Engagement-main/SQL Programming/Hotels not taken orders in a specific month/sample.sql"}

@@ -1,0 +1,1 @@
+{"text":"\n  $(document).ready(function(){\n    $(\"span\").hover(function(){\n      $(this).css(\"background-color\", \"bisque\");\n      $(\".shadow\").addClass(\"shadowClass\"); \n      }, function(){\n      $(this).css(\"background-color\", \"white\");\n    });\n  });\n\n\n","source":"Cognizant-GenC-Learn-main/jQuery/jQuery2/searchMeScript.js"}

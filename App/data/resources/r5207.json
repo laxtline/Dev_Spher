@@ -1,0 +1,1 @@
+{"text":"import java.time.LocalTime;\n\npublic class DateTime5 {\n    public static void main(String[] args) {\n        LocalTime now = LocalTime.now();\n        System.out.println(\"Time now : \" + now);\n        System.out.println(\"Time after 25 minutes : \" + now.plusMinutes(25));\n    }\n}\n","source":"Wipro-PJP-main/Topics/Java-8-Features/Date-Time-API/DateTime5.java"}

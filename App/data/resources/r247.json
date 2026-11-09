@@ -1,0 +1,1 @@
+{"text":"public interface MaintenanceCharge {\n    float calculateMaintenanceCharge(float noOfYears);\n}\n","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Bank Account - Interface/MaintenanceCharge.java"}

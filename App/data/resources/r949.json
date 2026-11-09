@@ -1,0 +1,1 @@
+{"text":"select s.student_name , d.department_name \nfrom student as s , department as d \nwhere d.department_id = s.department_id and s.city = \"Coimbatore\"\norder by s.student_name;","source":"Cognizant-GenC-Learn-main/SQL/Student and their Department Based on City/joins3.sql"}

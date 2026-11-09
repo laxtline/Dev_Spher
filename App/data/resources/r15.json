@@ -1,0 +1,1 @@
+{"text":"n = int(input(\"Enter a value  \"))\nval = 0\nx = 2\nwhile(val != n):\n    c = 0\n    for i in range(1, x+1):\n        if x % i == 0:\n            c += 1\n    if c == 2:\n        val += 1\n    if val == n:\n        break\n    x += 1\nprint(x)\n","source":"Accenture-Coding-Questions-Master/nthprimenumber.py"}

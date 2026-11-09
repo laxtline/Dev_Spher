@@ -1,0 +1,1 @@
+{"text":"ALTER TABLE customers\n    MODIFY COLUMN customer_id int;","source":"Cognizant-Early-Engagement-main/SQL Programming/Hunger eats - change datatype/sample.sql"}

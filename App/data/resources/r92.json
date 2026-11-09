@@ -1,0 +1,1 @@
+{"text":"// Stone Paper Scissor\n\n#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string A;\n    cin>>A;\n    \n    if(A==\"rock\")cout<<\"paper\";\n    else if(A==\"paper\")cout<<\"scissor\";\n    else cout<<\"rock\";\n\n    return 0;\n}","source":"Accenture-Coding-Round-main/26July2024(Accenture Coding Problems))/Problem-2.cpp"}

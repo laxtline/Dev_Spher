@@ -1,0 +1,1 @@
+{"text":"insert into my_employee values(202, 'Pat', 'Fay', 20, null);\nselect * from my_employee;\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/DML/dml4.sql"}

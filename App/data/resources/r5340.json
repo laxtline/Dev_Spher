@@ -1,0 +1,1 @@
+{"text":"select last_name || ' ' || job_ID \"Employee and Title\" from employees;\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Select-Statement/select5.sql"}

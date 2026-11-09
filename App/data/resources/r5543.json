@@ -1,0 +1,1 @@
+{"text":"// 2 \n\npackage com.wipro.automobile.ship;\n\npublic class Compartment {\n\tpublic int height;\n\tpublic int width;\n\tpublic int length;\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Packages/src/com/wipro/automobile/ship/Compartment.java"}

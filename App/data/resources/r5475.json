@@ -1,0 +1,1 @@
+{"text":"// 4 a\n\npublic class InvalidCountryException extends Exception{\n\t\n\tpublic InvalidCountryException() {\n\t\tSystem.out.println(\"Only available for India\");\n\t}\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/ExceptionHandling/src/InvalidCountryException.java"}

@@ -1,0 +1,1 @@
+{"text":"public class Flute extends Instrument{\n    void play(){\n        System.out.println(\"Flute is playing toot toot toot toot\");\n    }\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Abstract-Classes/Flute.java"}

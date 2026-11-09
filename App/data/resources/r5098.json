@@ -1,0 +1,1 @@
+{"text":"class ICICIBank extends GeneralBank{\n    double getSavingsInterestRate(){\n        return(4.0);\n    }\n\n    double getFixedDepositInterestRate(){\n        return(8.5);\n    }\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Abstract-Classes/ICICIBank.java"}

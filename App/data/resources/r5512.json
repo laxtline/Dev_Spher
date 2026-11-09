@@ -1,0 +1,1 @@
+{"text":"// 2\n\npublic class WelcomeString {\n\n\tpublic static void main(String[] args) {\n\t\t// TODO Auto-generated method stub\n        System.out.println(\"Welcome\" + args[0]);\n\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/LanguageBasics/src/WelcomeString.java"}

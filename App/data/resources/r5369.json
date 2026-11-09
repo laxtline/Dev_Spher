@@ -1,0 +1,1 @@
+{"text":"public class String4{\n    public static void main(String[] args) {\n        int length = args[0].length();\n\n        if (length % 2 == 0){\n            System.out.println(args[0].substring(0, length/2));\n        }\n        else{\n            System.out.println(\"null\");\n        }\n    }\n}\n","source":"Wipro-PJP-main/Topics/OOPS/Strings/String4.java"}

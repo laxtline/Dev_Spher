@@ -1,0 +1,1 @@
+{"text":"public class NegativeValuesException extends Exception {\n\tpublic NegativeValuesException() {\n\t\tsuper();\n\t\tSystem.out.println(\"NegativeValuesException occured\");\n\t}\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Exception-Handling/NegativeValuesException.java"}

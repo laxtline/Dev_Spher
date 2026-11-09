@@ -1,0 +1,1 @@
+{"text":"select emp_ID, last_name, salary, dept_ID from employees\nwhere manager_ID = &man_ID order by &col;\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Restricting-And-Sorting-Data/restrict_and_sort11.sql"}

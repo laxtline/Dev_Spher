@@ -1,0 +1,1 @@
+{"text":"select  rental_id, car_id, customer_id, km_driven\nfrom rentals\nwhere pickup_date between \"2019-08-01\" and \"2019-08-31\"\norder by rental_id;\n\n","source":"Cognizant-GenC-Learn-main/SQL/Rental details based on date/query.sql"}

@@ -1,0 +1,1 @@
+{"text":"string = list(input().strip())\nstring.sort()\nset = set(string)\ns = \"\"\nfor i in set:\n    c = string.count(i)\n    s += i+str(c)\nprint(s)\n","source":"Accenture-Coding-Questions-Master/frequencycount.py"}

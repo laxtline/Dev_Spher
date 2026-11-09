@@ -1,0 +1,1 @@
+{"text":"alter table hotel_details\nchange rating hotel_rating int;","source":"Cognizant-GenC-Learn-main/SQL/Hunger eats - Change the field name/sample.sql"}

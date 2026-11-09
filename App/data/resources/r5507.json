@@ -1,0 +1,1 @@
+{"text":"// 1 b\n\npackage music.string;\n\nimport music.Playable;\n\npublic class Veena implements Playable {\n\n\t@Override\n\tpublic void play() {\n\t\t// TODO Auto-generated method stub\n\t\tSystem.out.println(\"Veena is being played\");\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Interfaces/src/music/string/Veena.java"}

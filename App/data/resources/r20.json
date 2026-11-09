@@ -1,0 +1,1 @@
+{"text":"sentence = list(input().split())\nsentence.reverse()\ntemp = \" \".join(sentence)\nprint(temp)\n","source":"Accenture-Coding-Questions-Master/sentencewordrev.py"}

@@ -1,0 +1,1 @@
+{"text":"import React from 'react';\nimport SidebarAd from '@site/src/components/SidebarAd';\n\nexport default function InDocAd() {\n  return (\n    <div className=\"padding-top--lg\">\n      <SidebarAd position=\"in_doc\" />\n    </div>\n  );\n}\n","source":"tech-interview-handbook-main/apps/website/contents/_components/InDocAd.js"}

@@ -1,0 +1,1 @@
+{"text":"func findNthDigit(n int) int {\n\tk, cnt := 1, 9\n\tfor k*cnt < n {\n\t\tn -= k * cnt\n\t\tk++\n\t\tcnt *= 10\n\t}\n\tnum := int(math.Pow10(k-1)) + (n-1)/k\n\tidx := (n - 1) % k\n\treturn int(strconv.Itoa(num)[idx] - '0')\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题44. 数字序列中某一位的数字/Solution.go"}

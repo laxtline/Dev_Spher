@@ -1,0 +1,1 @@
+{"text":"a, b, c = map(int, input().split())\nx = (a**b) % c\nprint(x)\n","source":"Accenture-Coding-Questions-Master/expmod.py"}

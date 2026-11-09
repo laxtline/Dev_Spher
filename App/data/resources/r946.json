@@ -1,0 +1,1 @@
+{"text":"select o.order_id, c.customer_name, h.hotel_name, o.order_amount\nfrom customers c, hotel_details h, orders o\nwhere c.customer_id = o.customer_id and h.hotel_id = o.hotel_id\norder by o.order_id;","source":"Cognizant-GenC-Learn-main/SQL/Order details/sample.sql"}

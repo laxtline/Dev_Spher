@@ -1,0 +1,1 @@
+{"text":"func add(a int, b int) int {\n\tif b == 0 {\n\t\treturn a\n\t}\n\treturn add(a^b, (a&b)<<1)\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题65. 不用加减乘除做加法/Solution.go"}

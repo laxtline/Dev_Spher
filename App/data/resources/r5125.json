@@ -1,0 +1,1 @@
+{"text":"package music;\n\npublic interface Playable {\n    void play();\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Interfaces/music/Playable.java"}

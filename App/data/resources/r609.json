@@ -1,0 +1,1 @@
+{"text":"select partner_id, partner_name, (\n    case\n    when rating >= 4 then \"GOOD\"\n    when rating >= 2 and rating < 4 then \"AVERAGE\"\n    else \"WORST\"\n    end\n) as review\nfrom delivery_partners\norder by partner_id;","source":"Cognizant-Early-Engagement-main/SQL Programming/Review of delivery partner based on rating/sample.sql"}

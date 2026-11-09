@@ -1,0 +1,1 @@
+{"text":"// 11\n\npublic class PrintEven {\n\n\tpublic static void main(String[] args) {\n\t\t// TODO Auto-generated method stub\n\t\tfor (int i = 23; i <= 57; i++) {\n\t\t\tif (i % 2 == 0) {\n\t\t\t\tSystem.out.println(i);\n\t\t\t}\n\t\t}\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/FlowControlStatements/src/PrintEven.java"}

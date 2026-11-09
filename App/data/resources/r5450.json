@@ -1,0 +1,1 @@
+{"text":"// 1 c\n\npublic class Ladies extends Compartment {\n\n\t@Override\n\tpublic String notice() {\n\t\t// TODO Auto-generated method stub\n\t\treturn new String(\"Ladies\");\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/AbstractClasses/src/Ladies.java"}

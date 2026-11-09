@@ -1,0 +1,1 @@
+{"text":"package set1;\n\npublic class Table {\n\n\tpublic static void main(String[] args) {\n\t\tint num = Helper.getPosInt();\n\t\t\n\t\tfor (int i = 1; i <= 12; i+=1) {\n\t\t\tSystem.out.println(num + \" * \" + i + \" = \" + num * i);\n\t\t}\n\t}\n\n}\n","source":"Mindtree-POL-main/Practice-Problems/set1/Table.java"}

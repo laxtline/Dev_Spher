@@ -1,0 +1,1 @@
+{"text":"function CheckPassword(inputtxt) {\n  var passw = /^[A-Za-z]\\w{7,14}$/;\n  if (inputtxt.value.match(passw)) {\n    alert(\"Correct, try another...\");\n    return true;\n  } else {\n    alert(\"Wrong...!\");\n    return false;\n  }\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/JavaScript CSS/JavascriptRegExp/3.js"}

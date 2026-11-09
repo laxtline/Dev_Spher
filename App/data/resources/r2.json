@@ -1,0 +1,1 @@
+{"text":"lis = list(map(int, input().split()))\nprint(lis)\ns = []\nfor i in lis:\n    n = i\n    while(n > 0):\n        r = n % 10\n        s.append(str(r))\n        n = n//10\ns.sort()\ns.reverse()\nstring = \"\".join(s)\n\nprint(string)\n","source":"Accenture-Coding-Questions-Master/ArrayPermutation.py"}

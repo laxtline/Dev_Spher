@@ -1,0 +1,1 @@
+{"text":"lis = list(map(int, input().split(',')))\nn = int(input())\nlis.reverse()\nprint(lis)\n","source":"Accenture-Coding-Questions-Master/reverse_arr.py"}

@@ -1,0 +1,1 @@
+{"text":"public class LastDigitOfN{\n    public int lastDigitOfN(int input1){\n        return Math.abs(input1 % 10);\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/LastDigitOfN.java"}

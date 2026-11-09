@@ -1,0 +1,1 @@
+{"text":"select orders.order_id, customers.customer_name, hotel_details.hotel_name, orders.order_amount\nfrom orders, customers, hotel_details\nwhere orders.customer_id = customers.customer_id\n    and orders.hotel_id = hotel_details.hotel_id\norder by orders.order_id;","source":"Cognizant-Early-Engagement-main/SQL Programming/Order details/sample.sql"}

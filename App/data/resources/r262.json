@@ -1,0 +1,1 @@
+{"text":"public interface NumberType {\n    boolean checkNumber(int num);\n}\n","source":"Cognizant-Early-Engagement-main/Java Programming Fundamentals/Check Number Type/NumberType.java"}

@@ -1,0 +1,1 @@
+{"text":"public class Solution {\n    public int Add(int a, int b) {\n        while (b != 0) {\n            int c = (a & b) << 1;\n            a = a ^ b;\n            b = c;\n        }\n\n        return a;\n    }\n}\n","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题65. 不用加减乘除做加法/Solution.cs"}

@@ -1,0 +1,1 @@
+{"text":"function changeBG(color) {\n    document.body.style.backgroundColor = color;\n}\n","source":"Wipro-PJP-main/Topics/JavaScript-CSS/JavaScript-Objects/changeBG.js"}

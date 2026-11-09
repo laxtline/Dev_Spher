@@ -1,0 +1,1 @@
+{"text":"// area of canopy\n\n#include <bits/stdc++.h>\n\nint main() \n{\n    int d;\n    cin>>d;\n    \n    float area=3.14*d*d;\n    \n    if(area-int(area)<=0.5)\n    {\n        cout<<int(area);\n    }\n    else\n    {\n         cout<<int(area)+1;\n    }\n    \n    return 0;\n}","source":"Accenture-Coding-Round-main/2sept2024/Prob5.cpp"}

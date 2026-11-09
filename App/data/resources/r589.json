@@ -1,0 +1,1 @@
+{"text":"select distinct owner_id, owner_name, address, phone_no\nfrom owners\nwhere owner_id in (select distinct owner_id from cars where car_name like \"Maruthi%\");","source":"Cognizant-Early-Engagement-main/SQL Programming/Maruthi car owner details/query.sql"}

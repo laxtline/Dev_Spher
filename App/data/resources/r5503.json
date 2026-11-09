@@ -1,0 +1,1 @@
+{"text":"// 1 c\n\npublic class Test {\n\n\tpublic static void main(String[] args) {\n\t\t// TODO Auto-generated method stub\n\t\t\n\t\tBird bird = new Bird();\n\t\tbird.eat();\n\t\tbird.sleep();\n\t\tbird.fly();\n\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Inheritance/src/Test.java"}

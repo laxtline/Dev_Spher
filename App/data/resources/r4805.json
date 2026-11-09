@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"QuestionsQuestion\" ADD COLUMN     \"numEncounters\" INTEGER NOT NULL DEFAULT 0;\n\n-- CreateIndex\nCREATE INDEX \"QuestionsQuestion_numEncounters_id_idx\" ON \"QuestionsQuestion\"(\"numEncounters\", \"id\");\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221029180052_add_ecnounter_sort_support/migration.sql"}

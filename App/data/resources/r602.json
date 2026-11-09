@@ -1,0 +1,1 @@
+{"text":"SELECT DISTINCT P.PATIENT_ID, P.P_FIRST_NAME, P.P_AGE, P.ADDRESS, P.CONTACT_NUMBER\nFROM PATIENT P, APPOINTMENT A\nWHERE P.PATIENT_ID = A.PATIENT_ID\n    AND MONTH(A.APP_DATE) = 6\n    AND YEAR(A.APP_DATE) = 2019\nORDER BY P.PATIENT_ID;\n","source":"Cognizant-Early-Engagement-main/SQL Programming/Patient Appointment details Based On Month/join3.sql"}

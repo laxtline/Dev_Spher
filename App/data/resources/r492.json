@@ -1,0 +1,1 @@
+{"text":"package com.cts.passportService;\n\npublic interface HeadPassportOffice {\n\n\tpublic void doPhotoVerification();\n\n\tpublic void issuePassport();\n\n}\n","source":"Cognizant-Early-Engagement-main/Spring Core, Maven/Passport Service/HeadPassportOffice.java"}

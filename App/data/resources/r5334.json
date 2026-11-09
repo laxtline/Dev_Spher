@@ -1,0 +1,1 @@
+{"text":"select last_name, job_ID from employees\nwhere manager is null;\n\n","source":"Wipro-PJP-main/Topics/JDBC-RDBMS/Restricting-And-Sorting-Data/restrict_and_sort8.sql"}

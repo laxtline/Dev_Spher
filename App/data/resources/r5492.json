@@ -1,0 +1,1 @@
+{"text":"// 10 \npublic class PrintCount {\n\tpublic static void main(String[] args) {\n\t\tfor (int i = 1; i <= 10; i++) {\n\t\t\tSystem.out.print(i + \" \\t\");\n\t\t}\n\t}\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/FlowControlStatements/src/PrintCount.java"}

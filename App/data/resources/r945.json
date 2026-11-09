@@ -1,0 +1,1 @@
+{"text":"/*\n*/\n\nselect USER_ID, count(BD_ID) as no_of_times\nfrom bookingdetails\ngroup by USER_ID\norder by USER_ID;","source":"Cognizant-GenC-Learn-main/SQL/Number of Tickets Booked/groupfuction3bms.sql"}

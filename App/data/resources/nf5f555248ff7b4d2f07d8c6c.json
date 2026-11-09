@@ -1,0 +1,1 @@
+{"text":"func findRepeatNumber(nums []int) int {\n\tsort.Ints(nums)\n\tfor i := 0; ; i++ {\n\t\tif nums[i] == nums[i+1] {\n\t\t\treturn nums[i]\n\t\t}\n\t}\n}","source":"New folder (2)/leetcode-main/leetcode-main/lcof/面试题03. 数组中重复的数字/Solution.go"}

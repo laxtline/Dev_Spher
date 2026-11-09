@@ -1,0 +1,1 @@
+{"text":"// 1 a\n\npublic class Animal {\n\n\tpublic void eat() {\n\t\tSystem.out.println(\"Animal is eating\");\n\t}\n\n\tpublic void sleep() {\n\t\tSystem.out.println(\"Animal is sleeeping\");\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Inheritance/src/Animal.java"}

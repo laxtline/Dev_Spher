@@ -1,0 +1,1 @@
+{"text":"select distinct o.owner_id, o.owner_name, o.address, o.phone_no \nfrom owners o, cars c\nwhere o.owner_id = c.owner_id\nand c.car_name like \"Maruthi%\"\norder by o.owner_id;","source":"Cognizant-GenC-Learn-main/SQL/Maruthi car owner details/query.sql"}

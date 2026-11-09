@@ -1,0 +1,1 @@
+{"text":"package music.wind;\n\nimport music.Playable;\n\npublic class Saxophone implements Playable {\n\n    @Override\n    public void play(){\n        System.out.println(\"Playing Saxophone.\");\n    }\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Interfaces/music/wind/Saxophone.java"}

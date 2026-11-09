@@ -1,0 +1,1 @@
+{"text":"\"\"\"\nReverse the string after removing duplicates?\n\nEx= programming\n\np/o= nimagorp\n\ninfosys = ysofni\n\"\"\"\nstring = input()\nunique = list(dict.fromkeys(string))\nunique.reverse()\nprint(\"\".join(unique))","source":"Infytq-2022-Preparation-master/code3.py"}

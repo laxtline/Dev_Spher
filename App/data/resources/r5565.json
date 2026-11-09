@@ -1,0 +1,1 @@
+{"text":"// 4\n\npublic class HalfString {\n\n\tpublic static void main(String[] args) {\n\t\tString str = \"abcd\";\n\n\t\tif (str.length() % 2 != 0) {\n\t\t\tSystem.out.println(\"null\");\n\t\t\treturn;\n\t\t}\n\n\t\tSystem.out.println(str.substring(0, str.length() / 2));\n\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Strings/src/HalfString.java"}

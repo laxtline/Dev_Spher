@@ -1,0 +1,1 @@
+{"text":"public class For6{\n    public static void main(String[] args){\n        int n = Integer.parseInt(args[0]);\n        int sum = 0;\n        for (int rem = 0; n > 0; n/=10){\n            rem = n % 10;\n            sum += rem;\n        }\n        System.out.println(sum);\n    }\n}\n","source":"Wipro-PJP-main/Topics/Java-Fundamentals/Flow-Control-Statements/For6.java"}

@@ -1,0 +1,1 @@
+{"text":"lis = list(map(int, input().split()))\nnp = input()\nn = int(input())\ncharge = 0\nfor i in range(n):\n    if np[i] == 'p':\n        charge += lis[i]\n    elif np[i] == 'n':\n        charge += -(lis[i])\ncharge = charge*100\nprint(charge)\n","source":"Accenture-Coding-Questions-Master/ElectrostaticField.py"}

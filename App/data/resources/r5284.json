@@ -1,0 +1,1 @@
+{"text":"function sum() {\n    let num1 = Number(document.getElementById(\"num1\").value);\n    let num2 = Number(document.getElementById(\"num2\").value);\n\n    alert(\"Sum is : \" + (num1 + num2));\n}\n","source":"Wipro-PJP-main/Topics/JavaScript-CSS/JavaScript-Objects/calcSum.js"}

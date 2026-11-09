@@ -1,0 +1,1 @@
+{"text":"-- AlterEnum\nALTER TYPE \"QuestionsQuestionType\" ADD VALUE 'THEORY';\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221030133638_add_theory_enum/migration.sql"}

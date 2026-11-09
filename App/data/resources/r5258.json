@@ -1,0 +1,1 @@
+{"text":"public class For2{\n    public static void main(String[] atgs){\n        for (int i = 23; i <= 57; i++){\n            if (i%2 == 0){\n                System.out.println(i);\n            }\n        }\n    }\n}\n","source":"Wipro-PJP-main/Topics/Java-Fundamentals/Flow-Control-Statements/For2.java"}

@@ -1,0 +1,1 @@
+{"text":"public class If2{\n    public static void main(String [] args){\n        int n = Integer.parseInt(args[0]);\n        String out = \"\";\n        out = (n % 2 == 0) ? \"Even\" : \"Odd\";\n        System.out.println(out);\n    }\n}\n","source":"Wipro-PJP-main/Topics/Java-Fundamentals/Flow-Control-Statements/If2.java"}

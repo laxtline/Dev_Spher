@@ -1,0 +1,1 @@
+{"text":"-- AlterTable\nALTER TABLE \"OffersAnalysis\" ALTER COLUMN \"overallPercentile\" SET DATA TYPE DOUBLE PRECISION,\nALTER COLUMN \"companyPercentile\" SET DATA TYPE DOUBLE PRECISION;\n","source":"tech-interview-handbook-main/apps/portal/prisma/migrations/20221014205230_/migration.sql"}

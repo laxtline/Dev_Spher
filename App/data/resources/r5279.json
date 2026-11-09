@@ -1,0 +1,1 @@
+{"text":"let str = prompt(\"Enter string to check:\");\nif (str === str.split(\"\").reverse().join(\"\")) {\n    document.write(str + \" is palindrome.\");\n} else {\n    document.write(str + \" is not palindrome.\");\n}\n","source":"Wipro-PJP-main/Topics/JavaScript-CSS/Introduction-To-JS/checkPalindrome.js"}

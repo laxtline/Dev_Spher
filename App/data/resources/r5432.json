@@ -1,0 +1,1 @@
+{"text":"package com.abhishek.repository;\nimport org.springframework.data.repository.CrudRepository;\nimport com.abhishek.model.Employee;\npublic interface EmployeeRepository extends CrudRepository<Employee, Integer>\n{\n}\n","source":"Wipro-PJP-main/Topics/Spring-Boot/SpringBoot-MVC-JPA-H2/EmployeeRepository.java"}

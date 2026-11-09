@@ -1,0 +1,1 @@
+{"text":"public class FirstClass extends Compartment{\n    public String notice(){\n        return \"First Class Compartment\";\n    }\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Abstract-Classes/FirstClass.java"}

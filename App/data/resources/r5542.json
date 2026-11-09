@@ -1,0 +1,1 @@
+{"text":"// 3 a\n\npackage com.automobile;\n\npublic abstract class Vehicle {\n\n\tpublic abstract String getModelName();\n\n\tpublic abstract String getRegistrationNumber();\n\n\tpublic abstract String getOwnerName();\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/Packages/src/com/automobile/Vehicle.java"}

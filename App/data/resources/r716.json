@@ -1,0 +1,1 @@
+{"text":"public interface CommissionInfo {\n \n // Fill the code here\n public double calculateCommissionAmount(Ticket ticketObj);\n}","source":"Cognizant-GenC-Learn-main/JAVA/Advanced Java Concepts/Travel Agency/CommissionInfo.java"}

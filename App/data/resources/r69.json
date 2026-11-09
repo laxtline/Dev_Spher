@@ -1,0 +1,1 @@
+{"text":"#include<bits/stdc++.h>\nusing namespace std;\n\nint main()\n{\n    int ans = 0;\n        for (int i=0; i<N; i++) {\n            for (int j=0; j<=i; j++) {\n                ans++;\n                cout << ans << \" \";\n            }\n            cout << \"\\n\";\n        }\n\n    return 0;\n}\n\n","source":"Accenture-Coding-Round-main/19sept2024/Floyd's.cpp"}

@@ -1,0 +1,1 @@
+{"text":"import java.util.Arrays;\npublic class Array4 {\n   public static void main(String[] args) {\n\n    int[] numbers = Arrays.stream(args).mapToInt(Integer::parseInt).toArray();\n    char ch;\n    for (int num: numbers) {\n        ch = (char)num;\n        System.out.print(ch + \" \");\n    }\n   }\n}\n","source":"Wipro-PJP-main/Topics/Java-Fundamentals/Arrays/Array4.java"}

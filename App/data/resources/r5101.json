@@ -1,0 +1,1 @@
+{"text":"public class Ladies extends Compartment{\n    public String notice(){\n        return \"Ladies Compartment\";\n    }\n}\n","source":"Wipro-PJP-main/Topics/Abstraction-Packages-Exceptions/Abstract-Classes/Ladies.java"}

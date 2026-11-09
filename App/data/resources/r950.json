@@ -1,0 +1,1 @@
+{"text":"select order_date, sum(order_amount) as TOTAL_SALE\nfrom orders\ngroup by order_date;","source":"Cognizant-GenC-Learn-main/SQL/Total sale daywise/sample.sql"}

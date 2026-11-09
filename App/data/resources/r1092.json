@@ -1,0 +1,1 @@
+{"text":"# remove duplicate and reverse the string\n\n# Test Case\n# google\n# output : elog\n\n# Test Case\n# infosys\n# ysofni\n\nstring = input()\nd = list(dict.fromkeys(string))\nd.reverse()\nprint(d)\nprint(\"\".join(d))\n","source":"InfyTq-Coding-Questions-main/Python/question 2.py"}

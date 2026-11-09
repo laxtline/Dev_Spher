@@ -1,0 +1,1 @@
+{"text":"public class AddLastDigits{\n    public int addLastDigits(int input1, int input2){\n        return Math.abs(input1 % 10) + Math.abs(input2 % 10);\n    }\n}\n","source":"Wipro-PJP-main/Logic-Building/AddLastDigits.java"}

@@ -1,0 +1,1 @@
+{"text":"// 1 c\n\npublic class Orange extends Fruit {\n\n\t@Override\n\tpublic void eat() {\n\t\tSystem.out.println(\"The orange tastes sweet and sour\");\n\t}\n\n}\n","source":"Wipro-TalentNext-2022-Solutions-master/OverridingPolymorphism/src/Orange.java"}

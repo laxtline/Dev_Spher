@@ -1,0 +1,1 @@
+{"text":"select car_id, count(car_id)\nfrom rentals\ngroup by car_id\norder by car_id;","source":"Cognizant-Early-Engagement-main/SQL Programming/No of time rented by each car/query.sql"}

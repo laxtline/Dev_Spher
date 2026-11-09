@@ -1,0 +1,1 @@
+{"text":"from itertools import permutations, combinations\nlis = list(map(int, input(\"Enter a number   \").strip()))\nperm = permutations(lis, 2)\n# print(perm)\nfor i in perm:\n    print(i)\n","source":"Accenture-Coding-Questions-Master/permucombi.py"}

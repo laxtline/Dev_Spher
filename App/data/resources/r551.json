@@ -1,0 +1,1 @@
+{"text":"create table owners\n(\n    owner_id VARCHAR(10) primary key,\n    owner_name varchar(20),\n    address varchar(20),\n    phone_no bigint,\n    email_id varchar(20)\n);","source":"Cognizant-Early-Engagement-main/SQL Programming/Car rental system - Create Table/query.sql"}

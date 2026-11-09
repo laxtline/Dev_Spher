@@ -1,0 +1,1 @@
+{"text":"package com.service;\n\nimport org.springframework.stereotype.Service;\n\nimport com.bean.LoginBean;\n\n@Service\npublic class LoginService {\n\n\tpublic boolean validate(LoginBean bean) {\n\n\t\treturn bean.getUserName().equalsIgnoreCase(bean.getPassword());\n\t}\n\n}\n","source":"Cognizant-Early-Engagement-main/Spring MVC and Spring Boot/ZeeZeeLogin/LoginService.java"}

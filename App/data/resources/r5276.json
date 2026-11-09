@@ -1,0 +1,1 @@
+{"text":"public class CLA1{\n    public static void main(String[] args){\n        System.out.println(args[0] + \" Technologies \" + args[1]);\n    }\n}\n","source":"Wipro-PJP-main/Topics/Java-Fundamentals/Language-Basics/CLA1.java"}

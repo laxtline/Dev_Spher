@@ -1,0 +1,1 @@
+{"text":"\nselect hotel_id, hotel_name, hotel_type\nfrom hotel_details\nwhere hotel_id not in \n(select hotel_id from orders where month(order_date) = 5 and year(order_date)=2019)\norder by hotel_id;\n\n","source":"Cognizant-GenC-Learn-main/SQL/Hotels not taken orders in a specific month/sample.sql"}
